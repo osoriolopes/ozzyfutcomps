@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- =====================================================================
+     SEO BÁSICO
+     - Troque "https://SEU-DOMINIO.com/" pelo endereço real do site quando publicar.
+     - Os textos de <title> e description são trocados pelo JavaScript conforme o idioma,
+       mas estes (em português) são os que o Google lê primeiro.
+     ===================================================================== -->
+<title>OzzyFutComps | Highlights de jogadores de futebol</title>
+<meta name="description" content="OzzyFutComps: compilados e highlights de jogadores de futebol de mais de 40 ligas. Vídeos por liga, serviço de highlights personalizados por €50 e contato.">
+<meta name="keywords" content="highlights de jogadores, compilados de futebol, skills, gols, assistências, scouting, OzzyFutComps, Osório Football">
+<meta name="author" content="Osório Lopes">
+<meta name="theme-color" content="#0A0E14">
+<link rel="canonical" href="https://SEU-DOMINIO.com/">
+
+<!-- Pré-visualização ao compartilhar o link (WhatsApp, X, Facebook...) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OzzyFutComps">
+<meta property="og:title" content="OzzyFutComps | Highlights de jogadores de futebol">
+<meta property="og:description" content="Compilados de jogadores de mais de 40 ligas e highlights personalizados por €50.">
+<meta property="og:url" content="https://SEU-DOMINIO.com/">
+<meta property="og:image" content="https://yt3.googleusercontent.com/HiIdxpclqUFlaW7RBKQNYFmVOHXM0Rj86TK0nbACyM0xdkHM8wdzqjMevElgK89jbNAshAGoEw=s900-c-k-c0x00ffffff-no-rj">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="es_ES">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@osorio_fla10">
+
+<!-- Dados estruturados (ajudam o Google a entender o canal e o serviço) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "OzzyFutComps",
+      "alternateName": "Osório Football",
+      "url": "https://SEU-DOMINIO.com/",
+      "logo": "https://yt3.googleusercontent.com/HiIdxpclqUFlaW7RBKQNYFmVOHXM0Rj86TK0nbACyM0xdkHM8wdzqjMevElgK89jbNAshAGoEw=s900-c-k-c0x00ffffff-no-rj",
+      "founder": { "@type": "Person", "name": "Osório Lopes" },
+      "sameAs": [
+        "https://www.youtube.com/@OzzyFutComps",
+        "https://x.com/osorio_fla10"
+      ]
+    },
+    {
+      "@type": "Service",
+      "name": "Highlights de jogador de futebol",
+      "serviceType": "Edição de vídeo de highlights",
+      "provider": { "@type": "Organization", "name": "OzzyFutComps" },
+      "areaServed": "Worldwide",
+      "offers": { "@type": "Offer", "price": "50", "priceCurrency": "EUR" }
+    }
+  ]
+}
+</script>
+
+<!-- Fontes (carregamento rápido: preconnect + display=swap) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://i.ytimg.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;1,800&family=Barlow:wght@400;500;600&display=swap">
+
+<style>
+/* =====================================================================
+   CORES E FONTES — mude aqui para trocar a identidade visual do site inteiro
+   Layout: placar de transmissão esportiva — títulos de seção como "score bug",
+   ligas como fichas com código do país, tudo em fundo escuro.
+   ===================================================================== */
+:root{
+  --bg:#0A0E14;          /* fundo da página */
+  --surface:#121925;     /* cartões */
+  --surface-2:#1B2433;   /* cartões em destaque / hover */
+  --line:#273246;        /* bordas */
+  --text:#EEF2F7;        /* texto principal */
+  --muted:#93A1B6;       /* texto secundário */
+  --accent:#E5303B;      /* vermelho principal (botões, destaques) */
+  --accent-2:#FF4D57;    /* vermelho no hover */
+  --gold:#F5B841;        /* preço e detalhes */
+  --ok:#3FCB7E;          /* mensagem de sucesso */
+  --font-display:"Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --font-body:"Barlow", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --radius:14px;
+  --header-h:112px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:16px;line-height:1.55;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+button,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:6px}
+.wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 18px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:12px;top:-60px;background:var(--gold);color:#111;padding:8px 14px;border-radius:8px;z-index:100;font-weight:600}
+.skip:focus{top:12px}
+h1,h2,h3{font-family:var(--font-display);line-height:1.02;text-wrap:balance;margin:0}
+
+/* ---------- Cabeçalho fixo ---------- */
+.site-header{position:sticky;top:0;z-index:50;background:rgba(10,14,20,.88);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;height:56px}
+.brand{display:flex;align-items:center;gap:10px;min-width:0;text-decoration:none;font-family:var(--font-display);font-weight:800;font-style:italic;font-size:1.35rem;letter-spacing:.02em;text-transform:uppercase}
+.brand img{width:34px;height:34px;border-radius:50%;border:2px solid var(--accent)}
+.brand b{color:var(--accent)}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;padding:3px;gap:2px}
+.lang button{border:0;background:transparent;cursor:pointer;font-family:var(--font-display);font-weight:700;font-size:.9rem;letter-spacing:.06em;padding:4px 9px;border-radius:999px;color:var(--muted)}
+.lang button[aria-pressed="true"]{background:var(--accent);color:#fff}
+.nav{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;height:48px;align-items:stretch;margin:0 -18px;padding:0 18px}
+.nav::-webkit-scrollbar{display:none}
+.nav a{flex:none;display:flex;align-items:center;padding:0 12px;text-decoration:none;font-family:var(--font-display);font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:.98rem;color:var(--muted);border-bottom:3px solid transparent}
+.nav a:hover{color:var(--text)}
+.nav a.active{color:var(--text);border-bottom-color:var(--accent)}
+
+/* ---------- Títulos de seção estilo "placar" ---------- */
+section{scroll-margin-top:var(--header-h);padding:56px 0}
+section + section{border-top:1px solid var(--line)}
+.sec-head{display:flex;align-items:stretch;margin-bottom:14px;width:max-content;max-width:100%}
+.sec-num{display:flex;align-items:center;background:var(--accent);color:#fff;font-family:var(--font-display);font-weight:800;font-style:italic;font-size:1.05rem;padding:4px 12px 4px 10px;clip-path:polygon(0 0,100% 0,88% 100%,0 100%);font-variant-numeric:tabular-nums}
+.sec-tag{display:flex;align-items:center;background:var(--surface-2);font-family:var(--font-display);font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:.92rem;padding:4px 14px 4px 10px;margin-left:-6px;color:var(--muted)}
+h2{font-size:clamp(2rem,6vw,3.1rem);font-weight:800;font-style:italic;text-transform:uppercase;letter-spacing:.01em}
+.lead{color:var(--muted);max-width:62ch;margin:10px 0 0;font-size:1.05rem}
+
+/* ---------- Botões ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 20px;border-radius:10px;border:2px solid transparent;font-family:var(--font-display);font-weight:700;font-size:1.08rem;text-transform:uppercase;letter-spacing:.06em;text-decoration:none;cursor:pointer;transition:background .15s,border-color .15s,transform .15s}
+.btn-primary{background:var(--accent);color:#fff}
+.btn-primary:hover{background:var(--accent-2)}
+.btn-ghost{border-color:var(--line);background:transparent;color:var(--text)}
+.btn-ghost:hover{border-color:var(--muted)}
+.btn[disabled],.btn[aria-disabled="true"]{opacity:.5;cursor:not-allowed}
+.btn svg{width:18px;height:18px;flex:none}
+
+/* ---------- 1. Início ---------- */
+.hero{position:relative;padding:40px 0 56px;overflow:hidden;
+  /* linhas de campo discretas ao fundo */
+  background:
+    radial-gradient(circle at 92% 30%, transparent 0 150px, rgba(255,255,255,.05) 151px 153px, transparent 154px),
+    linear-gradient(90deg, transparent calc(92% - 1px), rgba(255,255,255,.05) calc(92% - 1px) calc(92% + 1px), transparent calc(92% + 1px)),
+    radial-gradient(60% 70% at 10% 0%, rgba(229,48,59,.20), transparent 70%);
+}
+.hero-grid{display:grid;gap:32px;align-items:center}
+.hero-grid > *{min-width:0}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--muted);font-family:var(--font-display);font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.95rem}
+.eyebrow img{width:44px;height:44px;border-radius:50%;border:2px solid var(--accent)}
+.hero h1{font-size:clamp(2.4rem,11vw,5.6rem);overflow-wrap:anywhere;font-weight:800;font-style:italic;text-transform:uppercase;margin:14px 0 6px;letter-spacing:-.005em}
+.hero h1 span{color:var(--accent)}
+.slogan{font-size:clamp(1.15rem,3.6vw,1.45rem);color:var(--text);margin:0 0 20px;max-width:30ch;font-weight:500}
+.stats{display:flex;gap:0;margin:0 0 26px;border:1px solid var(--line);border-radius:12px;overflow:hidden;width:max-content;max-width:100%}
+.stat{padding:10px 16px;border-right:1px solid var(--line)}
+.stat:last-child{border-right:0}
+.stat strong{display:block;font-family:var(--font-display);font-size:1.6rem;font-weight:800;font-style:italic;font-variant-numeric:tabular-nums;line-height:1}
+.stat span{font-size:.82rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.cta-row{display:flex;flex-wrap:wrap;gap:10px}
+.player-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:0 30px 60px -30px rgba(0,0,0,.7)}
+.player-label{display:flex;align-items:center;gap:8px;padding:10px 14px;font-family:var(--font-display);font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:.95rem}
+.live{width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 0 rgba(229,48,59,.6);animation:pulse 1.8s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 9px rgba(229,48,59,0)}100%{box-shadow:0 0 0 0 rgba(229,48,59,0)}}
+.ratio{position:relative;aspect-ratio:16/9;background:#000}
+.ratio iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+/* ---------- 2. Vídeos por liga ---------- */
+.regions{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:26px -18px 12px;padding:0 18px}
+.regions::-webkit-scrollbar{display:none}
+.regions button{flex:none;border:1px solid var(--line);background:transparent;border-radius:999px;padding:7px 14px;cursor:pointer;font-weight:600;font-size:.95rem;color:var(--muted)}
+.regions button[aria-pressed="true"]{background:var(--text);color:var(--bg);border-color:var(--text)}
+.leagues{display:flex;gap:8px;overflow-x:auto;padding:4px 18px 10px;margin:0 -18px;scroll-snap-type:x proximity;scroll-padding-inline:18px}
+.league{flex:none;scroll-snap-align:start;display:flex;align-items:stretch;border:1px solid var(--line);background:var(--surface);border-radius:9px;overflow:hidden;cursor:pointer;padding:0;text-align:left}
+.league:hover{border-color:var(--muted)}
+.league[aria-pressed="true"]{border-color:var(--accent);background:var(--surface-2)}
+.league .code{display:flex;align-items:center;background:var(--bg);padding:0 8px;font-family:var(--font-display);font-weight:700;font-size:.85rem;letter-spacing:.08em;color:var(--gold);border-right:1px solid var(--line)}
+.league[aria-pressed="true"] .code{background:var(--accent);color:#fff;border-right-color:var(--accent)}
+.league .name{padding:8px 10px;font-weight:600;font-size:.95rem;white-space:nowrap}
+.league .n{padding:8px 10px 8px 0;color:var(--muted);font-size:.85rem;font-variant-numeric:tabular-nums}
+.panel-head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px;margin:22px 0 16px}
+.panel-head h3{font-size:clamp(1.6rem,5vw,2.2rem);font-weight:800;font-style:italic;text-transform:uppercase}
+.panel-head p{margin:4px 0 0;color:var(--muted);font-size:.95rem}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.vcard{display:flex;flex-direction:column;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:transform .15s,border-color .15s}
+.vcard:hover{border-color:var(--muted);transform:translateY(-2px)}
+.thumb{position:relative;aspect-ratio:16/9;background:var(--surface-2)}
+.thumb img{width:100%;height:100%;object-fit:cover}
+.thumb .play{position:absolute;right:8px;bottom:8px;width:34px;height:34px;border-radius:50%;background:var(--accent);display:grid;place-items:center}
+.thumb .play svg{width:14px;height:14px;margin-left:2px}
+.vmeta{padding:10px 12px 12px;display:grid;gap:2px}
+.vmeta strong{font-weight:600;font-size:.98rem;line-height:1.25}
+.vmeta span{color:var(--muted);font-size:.86rem;line-height:1.3}
+.note{color:var(--muted);font-size:.88rem;margin-top:14px}
+
+/* ---------- 3. Serviço ---------- */
+.service-grid{display:grid;gap:22px;margin-top:28px}
+.price-card{background:linear-gradient(160deg,var(--surface-2),var(--surface));border:1px solid var(--line);border-radius:var(--radius);padding:24px;position:relative;overflow:hidden}
+.price-card::after{content:"";position:absolute;right:-40px;top:-40px;width:160px;height:160px;border-radius:50%;border:2px solid rgba(245,184,65,.18)}
+.price{display:flex;align-items:baseline;gap:10px;margin-bottom:18px}
+.price strong{font-family:var(--font-display);font-size:4.4rem;font-weight:800;font-style:italic;color:var(--gold);line-height:.9}
+.price span{color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-size:.9rem}
+.incl{list-style:none;padding:0;margin:0 0 22px;display:grid;gap:10px}
+.incl li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:start}
+.incl svg{width:22px;height:22px;color:var(--ok)}
+.steps{display:grid;gap:12px;counter-reset:step;list-style:none;padding:0;margin:12px 0 0}
+.steps li{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 16px 16px 64px;position:relative}
+.steps li::before{counter-increment:step;content:counter(step);position:absolute;left:16px;top:14px;width:34px;height:34px;display:grid;place-items:center;background:var(--bg);border:1px solid var(--line);border-radius:8px;font-family:var(--font-display);font-weight:800;font-style:italic;font-size:1.25rem;color:var(--gold)}
+.steps h3{font-size:1.25rem;text-transform:uppercase;font-weight:700;letter-spacing:.03em;margin-bottom:2px}
+.steps p{margin:0;color:var(--muted);font-size:.95rem}
+.how-title{font-family:var(--font-display);font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-size:1rem}
+
+/* ---------- 4. Parceiros e 5. X ---------- */
+.cards{display:grid;gap:14px;margin-top:26px}
+.pcard{display:grid;grid-template-columns:72px 1fr;gap:16px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px}
+.avatar{width:72px;height:72px;border-radius:50%;object-fit:cover;background:var(--surface-2);border:2px solid var(--line);display:grid;place-items:center;font-family:var(--font-display);font-weight:800;font-size:1.6rem;color:var(--gold)}
+.pcard h3{font-size:1.5rem;font-weight:700;text-transform:uppercase;letter-spacing:.02em}
+.pcard p{margin:4px 0 10px;color:var(--muted);font-size:.95rem}
+.pcard .meta{font-size:.86rem;color:var(--muted);font-variant-numeric:tabular-nums;margin:2px 0 0}
+.pcard .btn{min-height:40px;font-size:.98rem;padding:0 14px}
+.xcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px;display:grid;gap:14px}
+.xtop{display:grid;grid-template-columns:64px 1fr auto;gap:14px;align-items:center}
+.xtop .avatar{width:64px;height:64px}
+.xtop h3{font-size:1.35rem;font-weight:700}
+.xtop p{margin:0;color:var(--muted);font-size:.92rem}
+.xfeed{min-height:0}
+.xfeed .hint{color:var(--muted);font-size:.85rem;margin:8px 0 0}
+
+/* ---------- 6. Apoie ---------- */
+.support{background:
+  radial-gradient(70% 90% at 100% 100%, rgba(245,184,65,.10), transparent 70%)}
+.donate-grid{display:grid;gap:14px;margin-top:26px}
+.dcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px;display:grid;gap:14px;align-content:start}
+.dcard h3{font-size:1.5rem;font-weight:700;text-transform:uppercase}
+.dcard p{margin:0;color:var(--muted)}
+.qr{background:#fff;border-radius:12px;padding:10px;width:min(240px,100%)}
+.qr svg{width:100%;height:auto;display:block}
+.pix-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.pix-to{font-size:.88rem;color:var(--muted)}
+.copied{color:var(--ok);font-weight:600;font-size:.92rem}
+
+/* ---------- 7. Contato ---------- */
+.contact-grid{display:grid;gap:22px;margin-top:26px}
+form{display:grid;gap:14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px}
+label{display:grid;gap:6px;font-weight:600;font-size:.95rem}
+input,textarea{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:1rem}
+input:focus,textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(229,48,59,.25)}
+textarea{min-height:130px;resize:vertical}
+.hp{position:absolute;left:-9999px}
+.status{min-height:1.5em;margin:0;font-weight:600}
+.status.ok{color:var(--ok)} .status.err{color:#ff8a8f}
+.direct{display:grid;gap:10px;align-content:start}
+.direct h3{font-size:1.4rem;text-transform:uppercase;font-weight:700;margin-bottom:4px}
+.dlink{display:grid;grid-template-columns:40px 1fr;gap:12px;align-items:center;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:12px;text-decoration:none}
+.dlink:hover{border-color:var(--muted)}
+.dlink .ic{width:40px;height:40px;border-radius:10px;background:var(--surface-2);display:grid;place-items:center}
+.dlink .ic svg{width:20px;height:20px}
+.dlink small{display:block;color:var(--muted);font-size:.82rem}
+.dlink span{word-break:break-all;font-weight:600}
+
+/* ---------- Rodapé e janela de vídeo ---------- */
+footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);font-size:.9rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center}
+footer a{color:var(--text)}
+dialog{border:0;padding:0;background:transparent;width:min(960px,94vw);max-width:none}
+dialog::backdrop{background:rgba(0,0,0,.85)}
+.dlg-close{display:flex;justify-content:flex-end;margin-bottom:8px}
+
+/* ---------- Telas maiores (o site é pensado primeiro para celular) ---------- */
+@media (min-width:640px){
+  .grid{grid-template-columns:repeat(3,1fr)}
+  .cards,.donate-grid{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr 1fr}
+}
+@media (min-width:900px){
+  :root{--header-h:64px}
+  .bar{height:64px}
+  .site-header .wrap{display:flex;align-items:center;gap:20px;height:64px}
+  .bar{display:contents}
+  .brand{order:1;flex:none}
+  .nav{order:2;margin:0;padding:0;height:64px;flex:1;justify-content:center}
+  .lang{order:3;flex:none}
+  .hero{padding:64px 0 72px}
+  .hero-grid{grid-template-columns:5fr 6fr;gap:48px}
+  .grid{grid-template-columns:repeat(4,1fr)}
+  .leagues{flex-wrap:wrap;overflow:visible;margin:0;padding:4px 0 10px}
+  .regions{margin:26px 0 12px;padding:0}
+  .service-grid{grid-template-columns:5fr 7fr;align-items:start}
+  .contact-grid{grid-template-columns:7fr 5fr}
+  section{padding:80px 0}
+}
+@media (max-width:420px){ .brand{font-size:1.15rem} .brand img{width:28px;height:28px} .lang button{padding:4px 7px} .stat{padding:8px 12px} }
+@media (max-width:380px){ .grid{grid-template-columns:1fr} .xtop{grid-template-columns:52px 1fr} .xtop .btn{grid-column:1/-1} }
+@media (prefers-reduced-motion:reduce){ html{scroll-behavior:auto} *{animation:none!important;transition:none!important} }
+</style>
+</head>
+
+<body>
+<a class="skip" href="#inicio" data-i18n="skip">Pular para o conteúdo</a>
+
+<!-- =====================================================================
+     CABEÇALHO: logo, menu (âncoras) e troca de idioma
+     ===================================================================== -->
+<header class="site-header">
+  <div class="wrap">
+    <div class="bar">
+      <a class="brand" href="#inicio" aria-label="OzzyFutComps">
+        <img src="https://yt3.googleusercontent.com/HiIdxpclqUFlaW7RBKQNYFmVOHXM0Rj86TK0nbACyM0xdkHM8wdzqjMevElgK89jbNAshAGoEw=s88-c-k-c0x00ffffff-no-rj" alt="" width="34" height="34">
+        <span>Ozzy<b>Fut</b>Comps</span>
+      </a>
+      <div class="lang" role="group" aria-label="Idioma" data-i18n-aria="lang">
+        <button type="button" data-lang="pt" aria-pressed="true">PT</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        <button type="button" data-lang="it" aria-pressed="false">IT</button>
+        <button type="button" data-lang="es" aria-pressed="false">ES</button>
+      </div>
+    </div>
+    <nav class="nav" aria-label="Menu">
+      <a href="#inicio" data-i18n="nav.home">Início</a>
+      <a href="#videos" data-i18n="nav.videos">Vídeos</a>
+      <a href="#servico" data-i18n="nav.service">Serviço</a>
+      <a href="#parceiros" data-i18n="nav.partners">Parceiros</a>
+      <a href="#x" data-i18n="nav.x">No X</a>
+      <a href="#apoie" data-i18n="nav.support">Apoie</a>
+      <a href="#contato" data-i18n="nav.contact">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- =====================================================================
+     1. INÍCIO — nome, slogan, números do canal e o último vídeo postado
+     ===================================================================== -->
+<section id="inicio" class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">
+        <img src="https://yt3.googleusercontent.com/HiIdxpclqUFlaW7RBKQNYFmVOHXM0Rj86TK0nbACyM0xdkHM8wdzqjMevElgK89jbNAshAGoEw=s88-c-k-c0x00ffffff-no-rj" alt="" width="44" height="44">
+        <span data-i18n="hero.eyebrow">Highlights de jogadores no YouTube</span>
+      </div>
+      <h1>Ozzy<span>Fut</span>Comps</h1>
+      <p class="slogan" data-i18n="hero.slogan">Os talentos do futebol mundial, lance a lance.</p>
+      <div class="stats">
+        <div class="stat"><strong id="st-subs">6,18 mil</strong><span data-i18n="stat.subs">inscritos</span></div>
+        <div class="stat"><strong id="st-videos">1,1 mil</strong><span data-i18n="stat.videos">vídeos</span></div>
+        <div class="stat"><strong id="st-leagues">46</strong><span data-i18n="stat.leagues">ligas</span></div>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#servico" data-i18n="hero.cta">Contratar vídeo</a>
+        <a class="btn btn-ghost" id="sub-link" href="https://www.youtube.com/@OzzyFutComps?sub_confirmation=1" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8ZM9.8 15.1V8.9L15.2 12l-5.4 3.1Z"/></svg>
+          <span data-i18n="hero.subscribe">Inscrever-se no canal</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Player do último vídeo: usa a playlist de "uploads" do canal,
+         então mostra SEMPRE o vídeo mais recente, sem precisar editar nada. -->
+    <div class="player-card">
+      <div class="player-label"><span class="live" aria-hidden="true"></span><span data-i18n="hero.latest">Último vídeo</span></div>
+      <div class="ratio">
+        <iframe id="latest-player" title="Último vídeo do OzzyFutComps" loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     2. VÍDEOS POR LIGA — filtros e grade são montados pelo JavaScript
+        a partir da lista CONFIG.leagues (mais abaixo, no <script>)
+     ===================================================================== -->
+<section id="videos">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">02</span><span class="sec-tag" data-i18n="nav.videos">Vídeos</span></div>
+    <h2 data-i18n="videos.title">Vídeos por liga</h2>
+    <p class="lead" data-i18n="videos.lead">Escolha uma liga para ver os compilados mais recentes. Cada liga é uma playlist do canal.</p>
+
+    <div class="regions" id="regions" role="group" aria-label="Região"></div>
+    <div class="leagues" id="leagues" role="group" aria-label="Liga"></div>
+
+    <div class="panel-head">
+      <div>
+        <h3 id="league-title">Brasileirão Série A</h3>
+        <p id="league-count"></p>
+      </div>
+      <a class="btn btn-ghost" id="league-link" href="https://www.youtube.com/@OzzyFutComps/playlists" target="_blank" rel="noopener" data-i18n="videos.full">Ver playlist completa</a>
+    </div>
+    <div class="grid" id="video-grid" aria-live="polite"></div>
+    <p class="note" data-i18n="videos.note">Mostrando os vídeos mais recentes da playlist.</p>
+    <noscript><p><a href="https://www.youtube.com/@OzzyFutComps/playlists">Ver todas as playlists no YouTube</a></p></noscript>
+  </div>
+</section>
+
+<!-- =====================================================================
+     3. SERVIÇO — preço e itens inclusos (edite os textos no I18N, chaves "inc1"…"inc8")
+     ===================================================================== -->
+<section id="servico">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">03</span><span class="sec-tag" data-i18n="nav.service">Serviço</span></div>
+    <h2 data-i18n="service.title">Highlights de jogador por €50</h2>
+    <p class="lead" data-i18n="service.lead">Um vídeo profissional com os melhores lances de um atleta, pronto para clubes, empresários e olheiros.</p>
+
+    <div class="service-grid">
+      <div class="price-card">
+        <div class="price"><strong id="price">€50</strong><span data-i18n="service.per">por jogador</span></div>
+        <ul class="incl" id="incl">
+          <!-- Itens gerados pelo JavaScript a partir de inc1…inc8 -->
+        </ul>
+        <a class="btn btn-primary" href="#contato" id="order-btn" data-i18n="service.cta">Contratar agora</a>
+      </div>
+      <div>
+        <p class="how-title" data-i18n="service.how">Como funciona</p>
+        <ol class="steps">
+          <li><h3 data-i18n="step1t">Pedido</h3><p data-i18n="step1d">Envie o nome do jogador e, se tiver, os jogos que quer no vídeo.</p></li>
+          <li><h3 data-i18n="step2t">Pagamento</h3><p data-i18n="step2d">Combinamos a forma de pagamento por e-mail ou WhatsApp.</p></li>
+          <li><h3 data-i18n="step3t">Edição</h3><p data-i18n="step3d">Seleciono os lances, monto o vídeo e envio uma prévia.</p></li>
+          <li><h3 data-i18n="step4t">Entrega</h3><p data-i18n="step4d">Ajustes das revisões e arquivo final em Full HD.</p></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     4. CANAIS PARCEIROS — cartões gerados a partir de CONFIG.partners
+     ===================================================================== -->
+<section id="parceiros">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">04</span><span class="sec-tag" data-i18n="nav.partners">Parceiros</span></div>
+    <h2 data-i18n="partners.title">Canais parceiros</h2>
+    <p class="lead" data-i18n="partners.lead">Canais amigos com compilados e talentos do futebol.</p>
+    <div class="cards" id="partners"></div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     5. PERFIS NO X (TWITTER) — gerados a partir de CONFIG.xProfiles
+        Os posts só carregam quando o visitante clica (deixa o site mais leve).
+     ===================================================================== -->
+<section id="x">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">05</span><span class="sec-tag">X / Twitter</span></div>
+    <h2 data-i18n="x.title">Siga no X</h2>
+    <p class="lead" data-i18n="x.lead">Novidades do canal e comentários sobre futebol.</p>
+    <div class="cards" id="xprofiles"></div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     6. APOIE — Pix (Brasil) e doação do exterior (CONFIG.donations)
+     ===================================================================== -->
+<section id="apoie" class="support">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">06</span><span class="sec-tag" data-i18n="nav.support">Apoie</span></div>
+    <h2 data-i18n="support.title">Apoie o nosso trabalho</h2>
+    <p class="lead" data-i18n="support.lead">Cada compilado leva horas de pesquisa e edição. Se você curte o canal, qualquer valor ajuda a manter os vídeos saindo.</p>
+
+    <div class="donate-grid">
+      <div class="dcard">
+        <h3 data-i18n="support.pix.t">Pix (Brasil)</h3>
+        <p data-i18n="support.pix.d">Abra o app do seu banco, escaneie o QR Code ou use o Pix copia e cola. Você escolhe o valor.</p>
+        <!-- QR Code do Pix (chave aleatória, valor livre). Se trocar a chave Pix,
+             substitua este <svg> pela imagem do novo QR Code e atualize CONFIG.pix.payload. -->
+        <div class="qr" role="img" aria-label="QR Code Pix">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57 57" shape-rendering="crispEdges" aria-hidden="true"><path fill="#fff" d="M0 0h57v57h-57z"/><path class="qrline" stroke="#0a0e14" d="M2 2.5h7m2 0h1m3 0h3m3 0h2m3 0h1m3 0h3m4 0h1m1 0h6m3 0h7m-53 1h1m5 0h1m3 0h1m5 0h1m2 0h1m1 0h1m1 0h3m1 0h1m3 0h1m3 0h1m4 0h4m2 0h1m5 0h1m-53 1h1m1 0h3m1 0h1m1 0h1m1 0h1m4 0h2m1 0h1m2 0h2m1 0h1m4 0h1m2 0h1m2 0h3m5 0h1m2 0h1m1 0h3m1 0h1m-53 1h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h4m4 0h1m4 0h1m3 0h1m3 0h2m1 0h1m5 0h1m1 0h1m1 0h1m1 0h3m1 0h1m-53 1h1m1 0h3m1 0h1m1 0h1m1 0h4m4 0h1m1 0h11m1 0h2m1 0h3m3 0h2m3 0h1m1 0h3m1 0h1m-53 1h1m5 0h1m1 0h3m1 0h5m1 0h1m5 0h1m3 0h2m3 0h2m1 0h1m2 0h4m3 0h1m5 0h1m-53 1h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7m-45 1h1m3 0h1m5 0h1m1 0h1m3 0h1m3 0h1m1 0h1m2 0h2m1 0h1m3 0h3m-43 1h1m1 0h5m3 0h5m1 0h6m1 0h6m2 0h2m2 0h2m2 0h1m1 0h2m1 0h1m1 0h5m-51 1h1m1 0h1m2 0h1m3 0h1m1 0h5m1 0h4m1 0h3m2 0h1m2 0h1m1 0h2m2 0h1m2 0h1m2 0h2m1 0h1m2 0h2m2 0h1m-51 1h1m1 0h1m1 0h2m2 0h1m4 0h1m2 0h1m2 0h1m1 0h1m5 0h1m1 0h2m1 0h1m1 0h1m1 0h4m4 0h1m1 0h1m1 0h2m-50 1h3m2 0h1m3 0h2m2 0h2m1 0h1m1 0h1m1 0h3m2 0h1m2 0h4m1 0h1m4 0h3m1 0h1m1 0h2m3 0h1m-52 1h3m1 0h1m1 0h1m1 0h1m1 0h2m1 0h1m1 0h4m2 0h1m1 0h5m1 0h2m5 0h1m2 0h1m1 0h1m1 0h2m3 0h4m-50 1h2m3 0h1m1 0h2m1 0h4m2 0h1m2 0h5m2 0h1m1 0h1m1 0h1m2 0h2m2 0h2m1 0h1m9 0h1m-53 1h1m2 0h2m1 0h4m8 0h2m1 0h3m1 0h1m1 0h1m1 0h3m3 0h5m3 0h6m2 0h1m-51 1h1m3 0h1m3 0h1m4 0h1m1 0h1m2 0h1m4 0h1m3 0h2m2 0h1m1 0h1m5 0h1m7 0h1m2 0h1m-52 1h2m3 0h2m1 0h3m1 0h3m1 0h2m1 0h1m3 0h1m1 0h2m4 0h1m1 0h7m1 0h4m2 0h5m-52 1h1m1 0h2m1 0h1m1 0h1m5 0h2m3 0h1m2 0h1m2 0h3m1 0h5m1 0h1m2 0h1m4 0h1m2 0h1m2 0h1m1 0h3m-51 1h1m1 0h1m1 0h2m1 0h3m2 0h4m2 0h1m1 0h2m3 0h1m1 0h2m2 0h1m2 0h1m2 0h1m1 0h1m1 0h1m2 0h1m1 0h2m-45 1h1m3 0h3m1 0h2m1 0h1m1 0h5m1 0h2m1 0h1m1 0h4m3 0h1m2 0h1m1 0h1m5 0h1m1 0h1m-50 1h3m1 0h1m1 0h4m5 0h1m2 0h1m3 0h1m3 0h3m4 0h5m1 0h1m1 0h1m1 0h4m1 0h1m1 0h1m-50 1h4m4 0h1m2 0h3m2 0h2m2 0h1m1 0h2m2 0h1m1 0h2m2 0h1m1 0h1m3 0h1m2 0h1m5 0h1m3 0h1m-53 1h1m5 0h8m2 0h1m1 0h4m2 0h2m2 0h1m2 0h1m1 0h5m1 0h1m1 0h1m2 0h3m1 0h2m1 0h1m-47 1h1m2 0h1m1 0h1m1 0h1m1 0h2m3 0h2m1 0h2m3 0h2m1 0h1m3 0h1m1 0h1m3 0h1m1 0h2m1 0h1m3 0h1m1 0h1m-51 1h2m1 0h7m1 0h2m2 0h1m3 0h2m2 0h5m2 0h1m3 0h1m2 0h2m4 0h6m-49 1h2m1 0h1m3 0h1m1 0h3m2 0h5m2 0h3m3 0h5m4 0h1m1 0h1m2 0h1m1 0h1m3 0h1m2 0h2m-53 1h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h3m2 0h1m1 0h2m2 0h1m1 0h2m1 0h1m1 0h1m4 0h3m1 0h1m1 0h1m1 0h1m1 0h2m1 0h1m1 0h1m-49 1h1m2 0h2m3 0h3m3 0h1m2 0h1m1 0h1m1 0h4m3 0h1m1 0h2m1 0h1m1 0h4m1 0h1m3 0h1m3 0h1m2 0h1m-52 1h1m2 0h6m1 0h1m1 0h2m1 0h1m2 0h1m1 0h2m1 0h8m2 0h5m1 0h1m2 0h1m1 0h8m-52 1h1m2 0h1m1 0h1m1 0h1m1 0h6m1 0h3m1 0h1m1 0h5m1 0h1m1 0h2m1 0h1m2 0h1m5 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m-53 1h2m1 0h1m1 0h2m1 0h1m3 0h1m1 0h2m2 0h4m2 0h3m1 0h2m4 0h1m1 0h3m2 0h1m3 0h1m2 0h2m1 0h1m-49 1h1m1 0h1m4 0h3m5 0h1m1 0h2m4 0h2m1 0h1m1 0h2m2 0h1m3 0h3m1 0h2m1 0h1m2 0h1m1 0h1m-48 1h4m1 0h5m2 0h2m2 0h1m2 0h5m8 0h1m1 0h1m2 0h2m2 0h1m1 0h1m2 0h1m1 0h1m-52 1h1m1 0h2m3 0h2m3 0h2m1 0h1m4 0h1m1 0h1m3 0h1m1 0h1m1 0h2m4 0h1m2 0h1m1 0h1m1 0h1m3 0h1m3 0h1m-53 1h1m1 0h3m1 0h3m5 0h1m2 0h2m3 0h1m1 0h1m2 0h2m1 0h4m2 0h1m2 0h1m1 0h1m1 0h3m5 0h1m-51 1h1m8 0h1m2 0h1m1 0h1m3 0h4m1 0h2m1 0h1m2 0h4m1 0h1m4 0h1m2 0h1m2 0h1m1 0h1m2 0h2m-51 1h3m1 0h4m3 0h1m2 0h1m4 0h1m6 0h1m1 0h2m4 0h2m1 0h1m2 0h1m4 0h1m1 0h3m-50 1h1m4 0h2m2 0h1m1 0h2m1 0h3m1 0h1m1 0h5m1 0h6m1 0h3m1 0h1m2 0h1m2 0h1m2 0h1m1 0h3m-52 1h3m2 0h1m2 0h1m1 0h2m1 0h1m3 0h2m1 0h1m2 0h1m3 0h1m1 0h3m2 0h2m2 0h1m1 0h1m2 0h2m1 0h1m2 0h1m-51 1h6m3 0h2m5 0h2m1 0h1m7 0h1m1 0h4m1 0h1m1 0h4m1 0h3m2 0h1m1 0h2m1 0h2m-51 1h5m1 0h1m1 0h6m1 0h2m1 0h2m5 0h2m4 0h4m1 0h2m4 0h2m4 0h1m-50 1h1m3 0h1m1 0h4m2 0h1m1 0h1m2 0h1m1 0h1m2 0h5m2 0h2m5 0h4m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m-53 1h2m1 0h4m4 0h2m1 0h2m4 0h3m2 0h2m2 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m2 0h2m1 0h1m1 0h3m-51 1h2m4 0h1m2 0h1m1 0h4m2 0h2m3 0h4m6 0h1m1 0h2m3 0h4m2 0h2m1 0h1m1 0h1m-49 1h1m2 0h1m3 0h1m2 0h1m1 0h1m1 0h2m1 0h2m2 0h8m4 0h1m1 0h2m1 0h2m1 0h6m1 0h1m-44 1h1m1 0h1m5 0h2m4 0h3m3 0h3m1 0h2m1 0h2m2 0h1m1 0h2m1 0h1m3 0h1m3 0h1m-53 1h7m2 0h2m1 0h1m2 0h5m2 0h1m1 0h1m1 0h1m1 0h1m5 0h1m1 0h1m1 0h2m2 0h3m1 0h1m1 0h1m2 0h1m-52 1h1m5 0h1m1 0h1m2 0h2m2 0h4m2 0h2m1 0h1m3 0h3m7 0h1m1 0h1m1 0h1m1 0h1m3 0h1m2 0h2m-53 1h1m1 0h3m1 0h1m1 0h2m1 0h1m2 0h6m2 0h1m1 0h5m1 0h4m2 0h2m1 0h1m2 0h1m1 0h8m-52 1h1m1 0h3m1 0h1m1 0h1m4 0h2m1 0h3m2 0h1m1 0h3m4 0h1m1 0h1m2 0h1m3 0h2m1 0h6m1 0h1m-50 1h1m1 0h3m1 0h1m1 0h2m2 0h1m3 0h1m1 0h4m2 0h6m1 0h3m1 0h1m1 0h2m2 0h1m6 0h1m1 0h3m-53 1h1m5 0h1m5 0h2m2 0h2m1 0h1m1 0h1m2 0h1m5 0h1m3 0h3m2 0h4m5 0h1m2 0h1m-52 1h7m1 0h2m1 0h3m1 0h1m2 0h1m4 0h2m2 0h1m1 0h3m1 0h1m1 0h2m1 0h1m3 0h1m2 0h2m1 0h3"/></svg>
+        </div>
+        <div class="pix-row">
+          <button type="button" class="btn btn-primary" id="pix-copy">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/></svg>
+            <span data-i18n="support.copy">Copiar código Pix</span>
+          </button>
+          <span class="copied" id="pix-copied" aria-live="polite"></span>
+        </div>
+        <p class="pix-to" id="pix-to"></p>
+      </div>
+      <div class="dcard">
+        <h3 data-i18n="support.intl.t">Do exterior</h3>
+        <p data-i18n="support.intl.d">Doe com cartão ou PayPal, em qualquer moeda.</p>
+        <div id="intl-donate" class="pix-row"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     7. CONTATO — formulário enviado para os e-mails de CONFIG.form
+     ===================================================================== -->
+<section id="contato">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">07</span><span class="sec-tag" data-i18n="nav.contact">Contato</span></div>
+    <h2 data-i18n="contact.title">Entre em contato conosco</h2>
+    <p class="lead" data-i18n="contact.lead">Peça seu vídeo, proponha uma parceria ou mande sua sugestão de jogador.</p>
+
+    <div class="contact-grid">
+      <form id="contact-form" novalidate>
+        <label for="f-name"><span data-i18n="f.name">Nome</span>
+          <input id="f-name" name="name" autocomplete="name" required maxlength="100">
+        </label>
+        <label for="f-email"><span data-i18n="f.email">E-mail</span>
+          <input id="f-email" name="email" type="email" autocomplete="email" required maxlength="150">
+        </label>
+        <label for="f-player"><span data-i18n="f.player">Jogador desejado</span>
+          <input id="f-player" name="player" maxlength="150" placeholder="ex.: Pedro, Flamengo" data-i18n-ph="f.player.ph">
+        </label>
+        <label for="f-message"><span data-i18n="f.message">Mensagem</span>
+          <textarea id="f-message" name="message" required maxlength="3000"></textarea>
+        </label>
+        <!-- Campo invisível anti-spam: robôs preenchem, pessoas não -->
+        <input class="hp" type="text" name="_honey" id="f-honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn btn-primary" type="submit" id="f-send" data-i18n="f.send">Enviar mensagem</button>
+        <p class="status" id="f-status" role="status"></p>
+      </form>
+
+      <div class="direct">
+        <h3 data-i18n="contact.direct">Contato direto</h3>
+        <div id="direct-links" class="direct"></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year">2026</span> OzzyFutComps · Osório Football. <span data-i18n="footer.rights">Todos os direitos reservados.</span></span>
+    <a href="https://www.youtube.com/@OzzyFutComps" target="_blank" rel="noopener">youtube.com/@OzzyFutComps</a>
+  </div>
+</footer>
+
+<!-- Janela que toca o vídeo clicado na grade -->
+<dialog id="video-dialog" aria-label="Vídeo">
+  <div class="dlg-close"><button type="button" class="btn btn-ghost" id="dlg-close" data-i18n="modal.close">Fechar</button></div>
+  <div class="ratio" id="dlg-frame"></div>
+</dialog>
+
+<script>
+/* =========================================================================
+   ⚙️  CONFIGURAÇÃO — TUDO QUE VOCÊ PRECISA EDITAR ESTÁ AQUI
+   ========================================================================= */
+const CONFIG = {
+
+  /* ---- Canal ---- */
+  channel: {
+    url: "https://www.youtube.com/@OzzyFutComps",
+    // ID do canal (começa com UC). A playlist de uploads é o mesmo ID com "UU" no lugar de "UC".
+    id: "UCNnfP5uOOqODHHKBQdJNWxA",
+    // Números exibidos no topo — atualize de vez em quando
+    subscribers: "6,18 mil",
+    videos: "1,1 mil"
+  },
+
+  /* ---- Chave da API do YouTube (OPCIONAL) ----
+     Sem chave: a grade mostra os vídeos salvos em CONFIG.leagues (abaixo).
+     Com chave: a grade busca os vídeos mais novos de cada playlist automaticamente.
+     Como criar: console.cloud.google.com → novo projeto → ative "YouTube Data API v3"
+     → Credenciais → Criar chave de API → restrinja a chave ao domínio do seu site. */
+  youtubeApiKey: "",
+
+  /* ---- Formulário de contato ----
+     Usa o FormSubmit.co (grátis, sem cadastro). Na PRIMEIRA mensagem enviada,
+     o FormSubmit manda um e-mail de ativação para "to" — clique no link para ativar. */
+  form: {
+    to: "osoriofla@gmail.com",
+    cc: ["calciobrasil352@gmail.com"]     // pode adicionar mais e-mails aqui
+  },
+
+  /* ---- Contatos diretos (deixe "" para esconder o botão) ---- */
+  contact: {
+    emails: ["osoriofla@gmail.com", "calciobrasil352@gmail.com"],
+    whatsapp: "",     // só números, com DDI e DDD. Ex.: "5521999998888"
+    instagram: ""     // só o usuário, sem @. Ex.: "ozzyfutcomps"
+  },
+
+  /* ---- Preço do serviço ---- */
+  price: { value: 50, currency: "EUR" },
+
+  /* ---- Doações ---- */
+  pix: {
+    // "Pix copia e cola" (o mesmo conteúdo do QR Code). Valor livre.
+    payload: "00020126580014BR.GOV.BCB.PIX01362c20f9f8-d517-4cb0-952f-a544ff2750435204000053039865802BR5924Osorio Lopes Feijo Filho6009SAO PAULO62140510L6iN9201SS6304C25B",
+    receiver: "Osório Lopes"
+  },
+  // Doação de estrangeiros: cole aqui o link do Ko-fi (recomendado) ou do PayPal.me.
+  // Ex.: { label: "Ko-fi", url: "https://ko-fi.com/ozzyfutcomps" }
+  //      { label: "PayPal", url: "https://paypal.me/seuusuario" }
+  internationalDonation: { label: "Ko-fi", url: "" },
+
+  /* ---- Canais parceiros ---- */
+  partners: [
+    {
+      name: "Compilados Flamengo",
+      url: "https://www.youtube.com/@compiladosflamengo6950",
+      logo: "https://yt3.googleusercontent.com/Ro35o0Cguk7n7k2BnXP0R2LElrm0GiD1pj0wjfJ7VdfLBYoPpie0RAhuaXkxruuRxWmAiFhrzv4=s176-c-k-c0x00ffffff-no-rj",
+      stats: "8,74 mil · 573",          // inscritos · vídeos
+      descKey: "p.cf"                    // texto traduzido no I18N
+    },
+    {
+      name: "Le Talent Comps",
+      url: "https://www.youtube.com/@LeTalentComps",
+      logo: "https://yt3.googleusercontent.com/NLQBgPqtAKsKKOvT8TzftMTgf4DC0RFgSrgw-S1RDAPm_HusLtgjZ_H32MSPnHeq2YEDVJSBjyg=s176-c-k-c0x00ffffff-no-rj",
+      stats: "13,8 mil · 1,4 mil",
+      descKey: "p.lt"
+    }
+    // Para adicionar outro parceiro, copie um bloco { ... } acima.
+    // Se não quiser traduzir a descrição, use desc: "Texto fixo" no lugar de descKey.
+  ],
+
+  /* ---- Perfis do X (Twitter) ---- */
+  xProfiles: [
+    { handle: "osorio_fla10",  name: "Osório" },
+    { handle: "victorbreno14", name: "Victor Breno" }
+  ],
+
+  /* ---- Ligas ----
+     Cada liga = uma playlist do canal.
+     id      → código da playlist (o que vem depois de "list=" no link)
+     code    → sigla do país mostrada na ficha
+     region  → bra | ita | eur | ame | afa   (define em qual filtro aparece)
+     count   → total de vídeos na playlist (só para exibir)
+     videos  → vídeos mostrados sem API: ["ID do vídeo", "Jogador | Clube"]
+     Playlists que não são de ligas (Seleções, Análise do Elenco, Joias do Calcio,
+     Mercado, História, Euro 2020, Outros campeonatos...) ficaram de fora de propósito. */
+  defaultLeague: "PLKzpke-cWXyU",   // liga que abre selecionada
+  leagues: [
+    /* ---------- Brasil ---------- */
+    { id:"PLKzpke-cWXyU", name:"Brasileirão Série A", code:"BRA", region:"bra", count:144, videos:[
+      ["il_bfLKwi1w","Henry Mosquera | Red Bull Bragantino"],["rcH9re2Jy2U","Cristian Pavón | Grêmio"],["zYM1Gs-KWdM","Jhon Arias | Palmeiras"],["ABcss19QL08","Nicolás Acevedo | Bahia"],
+      ["Y6Q0oE9zS_Q","Weverton | Grêmio"],["Aytu62ydt-o","Igor Formiga | Mirassol"],["MHX5jfKqxo8","Ronaldo | Bahia"],["MucSUeU34cA","Wallace | Grêmio"]]},
+    { id:"PLeKgvYifF6KY", name:"Brasileirão Série B", code:"BRA", region:"bra", count:20, videos:[
+      ["2YSQiEWF9sE","Lucas Rodrigues | Goiás"],["KS-up6mgt3c","Melk | Ceará SC"],["Sfee6RBdt3Q","Ronald | Atlético Goianiense"],["WNlc6tONdvA","Yuri Alves | Atlético Goianiense"],
+      ["yzw7mCAl6Bs","Marcos Victor | Ceará SC"],["InNR3m73kCI","Pedro Raul | Ceará SC"],["9O7DS34TSGY","Dieguinho | Ceará SC"],["sh5miyo-TNo","Lucas Mugni | Ceará SC"]]},
+    { id:"PLUtGus4rf_qY", name:"Brasil – Outras divisões", code:"BRA", region:"bra", count:4, videos:[
+      ["8uT8mhiIy4A","Bruno Bertinatto | Portuguesa"],["6e0zZ6nBuU0","Everton Maceió | Portuguesa"],["sKoU-EMjneI","Davi Gomes | Água Santa"],["tBm41UP-xRk","Ruan Ribeiro | Paysandu"]]},
+
+    /* ---------- Itália ---------- */
+    { id:"PLZCdooBQq0Ik", name:"Serie A", code:"ITA", region:"ita", count:63, videos:[
+      ["jEq2ZDqsOAk","Giorgi Kvernadze | Frosinone"],["T_kAVFWjRNw","Jhon Lucumí | Bologna"],["bh5rDIldVF0","Gabriele Calvani | Frosinone"],["hAagbyHwIlM","Emil Holm | Bologna"],
+      ["JGE5XSFZx3U","Cas Odenthal | Sassuolo"],["-EVkTlMdx0g","Horațiu Moldovan | Sassuolo"],["X3DFwJYCJTo","Matteo Lovato | Sassuolo"],["DTJ-CAUtJrE","Armand Laurienté | Sassuolo"]]},
+    { id:"PLeMEKVjcHNq8", name:"Serie B", code:"ITA", region:"ita", count:73, videos:[
+      ["HtducVK3ePg","Dominic Vavassori | Palermo"],["fS8uEADLMOA","Samuele Righetti | Arezzo"],["mw5G0BlXgaw","Filippo Ranocchia | Palermo"],["2VSCNqQWqT4","Alessio Castellini | Mantova"],
+      ["YJ1zB4Sq2BI","Steven Nador | Modena"],["BRHTfkySMyM","Alessandro Arena | Arezzo"],["lFvg4YyWjrw","Andrea Silipo | Ascoli"],["5P1OJmExt3I","Fahem Benaissa-Yahia | Mantova"]]},
+    { id:"PLPYDPXugx5NU", name:"Serie C", code:"ITA", region:"ita", count:92, videos:[
+      ["WNzf7jEfpBQ","Lorenzo Di Stefano | Torres"],["xKPRKJLwaGg","Ismael Konate | Juventus Next Gen"],["Bdp-PimmkVU","Filippo Pagnucco | Juventus Next Gen"],["UNu2cSN86Vs","Patryk Mazur | Juventus Next Gen"],
+      ["toTRUpQPrxo","Alessandro Romano | Spezia"],["N68zJ5qOT9M","Gabriel Arditi | Siracusa"],["Cdbr6AZq94A","Chec Bebel Doumbia | Team Altamura"],["CqnG2k1kCb8","Alberto Manzoni | Atalanta U23"]]},
+    { id:"PLfB0l2wAUztg", name:"Serie D", code:"ITA", region:"ita", count:6, videos:[
+      ["TpEe79D925Y","Ugo Dell'Orfanello | Nola"],["lP2ClZglYDU","Marcelo Vaz | Varesina"],["qBT--ra_mH4","Fahuz Mikaila | Rivolto"],["duZvMVRIt6o","Andrea Cappadonna | ASD Fanfulla"],
+      ["kIU77V26_QU","Federico Russo | San Donato Tavarnelle"],["w6xCmeP0ddA","Daniel Fossati | Borgosesia Calcio"]]},
+    { id:"PLISUBuslqbD8", name:"Primavera & Youth", code:"ITA", region:"ita", count:6, videos:[
+      ["l28uwfRpxjU","Jeff Ekhator | Genoa U19"],["i_ldzIdpaBc","Maximilian Ibrahimović | Milan U20"],["HMeiwUkCICs","Christos Papadopoulos | Genoa U19"],["X6pSCR3wWiI","Tommaso Pittino | Genoa U19"],
+      ["z9f1EOXPAQ8","Agustín Luna | Frosinone U19"],["OYAtZQQwZFI","Filippo Di Stefano | Fiorentina Primavera"]]},
+
+    /* ---------- Europa ---------- */
+    { id:"PLHnAwEvZx60o", name:"Premier League", code:"ENG", region:"eur", count:5, videos:[
+      ["2GNRVlNzHOY","Jeremy Sarmiento | Brighton & Hove Albion"],["3zz7QbCn6Ew","Mohamed Belloumi | Hull City"],["9sBSDU1rLUE","Wilfried Gnonto | Leeds United"],["a1n6t3NEsG8","Eliezer Mayenda | Sunderland"],
+      ["SLTpvMRngE4","Micah Hamilton | Manchester City"]]},
+    { id:"PLZ4bzZYwlklg", name:"EFL Championship", code:"ENG", region:"eur", count:4, videos:[
+      ["Gjnef_6KJ3Q","Josh Sargent | Norwich City"],["kKfjmf6eDxI","Luca Koleosho | Burnley"],["11-ERgP6554","Emmanuel Latte Lath | Middlesbrough"],["0AmcBNZiqeA","Luca Koleosho | Burnley"]]},
+    { id:"PLO28O8fqN1gw", name:"Scottish Premiership", code:"SCO", region:"eur", count:13, videos:[
+      ["qOkIlTOclJE","James Tavernier | Rangers"],["vfGZYdjcy68","Benjamin Nygren | Celtic"],["SLPzhjy7Dlg","Aleksandros Kyziridis | Heart of Midlothian"],["iKQX7clbA5c","Nicolas Raskin | Rangers"],
+      ["7hPKHp1uq0Y","Findlay Curtis | Rangers"],["b42biHnKRJ0","Ben Broggio | Falkirk FC"],["nRxXKxlKPgw","Josh McPake | St. Johnstone"],["AExH9EZoQsQ","Jefté | Rangers"]]},
+    { id:"PLTsaQig7kz3M", name:"La Liga", code:"ESP", region:"eur", count:4, videos:[
+      ["qHfNi0d1YKU","Giovani Lo Celso | Real Betis"],["0kjiVWaM7IM","Nahuel Tenaglia | Deportivo Alavés"],["pbX-VbvBxOk","Nicolás Fernández | Elche"],["BNivLjqR41Y","Omar Alderete | Getafe"]]},
+    { id:"PLdyBU6NwiWlg", name:"Segunda División", code:"ESP", region:"eur", count:4, videos:[
+      ["MimURf5ffOY","Victor Aznar | Cádiz"],["HNqgykYfz1I","Lorenzo Amatucci | Las Palmas"],["9HZQ-w15-40","Yáser Asprilla | Girona"],["uJ41IhW-Fmc","Kaiky | Almería"]]},
+    { id:"PLUi9biLsiSZE", name:"Liga Portugal", code:"POR", region:"eur", count:22, videos:[
+      ["ylkJc9H2Gq0","Leo Azevedo | Torreense"],["fcPRHfSXbYI","Gabriel Moscardo | Sporting Braga"],["svtNhIxYlK8","Vladimir Silva | Paços de Ferreira"],["DdtD9QvohdM","Daniel Banjaqui | SL Benfica"],
+      ["F36IvwYPdNg","Taichi Fukui | FC Arouca"],["djjHGq1_JZ4","Alisson Santos | Sporting CP"],["f3a19fOxYR4","Alexsandro Amorim | FC Alverca"],["Q2iUuH8xD7M","Andrew | Gil Vicente"]]},
+    { id:"PLW_1SU-jTMb0", name:"Eredivisie", code:"NED", region:"eur", count:52, videos:[
+      ["9qpk2eiTgw0","Ramiz Zerrouki | FC Twente"],["2qIKTH0gJbg","Daan Rots | FC Twente"],["a2aMQ-Gda0Y","Ro-Zangelo Daal | AZ Alkmaar"],["ByxUJGKxv3E","Rafik El Arguioui | SC Cambuur"],
+      ["yIy8JRBX0KU","Irakli Yegoian | Excelsior"],["4AQPaK9nTiw","Kilian Nikièma | ADO Den Haag"],["VIXg0nrqmSg","Anton Gaaei | AFC Ajax"],["jVwN2Urx8yg","Yarek Gasiorowski | PSV Eindhoven"]]},
+    { id:"PLMpQfCpGr4bY", name:"Eerste Divisie", code:"NED", region:"eur", count:26, videos:[
+      ["Htqtjxlscqc","Ajdin Hrustić | Heracles Almelo"],["gqMYwEVG_qo","Sami Bouhoudane | Jong PSV"],["rciVVq-jvwQ","Bendegúz Kovács | Jong AZ"],["8K2YUFGfrtU","Joeri Heerkens | Jong Ajax"],
+      ["eEDj8hJOSe0","Sem Westerveld | MVV Maastricht"],["_zO0F4OXIf8","Gibson Yah | FC Volendam"],["m2YvG_nHKzg","Ilias Boumassaoudi | FC Den Bosch"],["TnDwyEoyF38","Daniel Bielica | NAC Breda"]]},
+    { id:"PLW3F72PnIPuw", name:"Super League", code:"SUI", region:"eur", count:23, videos:[
+      ["n2q_C2Qvl3Y","Asane Sow | Basel"],["P5vW-2iwGZ4","Lutfi Dalipi | FC Vaduz"],["9DDv2FoP1A8","Niklas Steffen | FC Thun"],["aBdplzJLjac","Winsley Boteli Mokango | FC Sion"],
+      ["zGN1w5LnO1M","Rilind Nivokazi | FC Sion"],["aPQTNsMSUkU","Luke Plange | Grasshopper"],["6z173nvGy0I","Carlo Boukhalfa | FC St. Gallen"],["T0c8QrT0-ZU","Jaouen Hadjam | Young Boys"]]},
+    { id:"PLABZT5qcenC8", name:"Bundesliga (Áustria)", code:"AUT", region:"eur", count:3, videos:[
+      ["B7LuSdl227Q","Kerim Alajbegović | Red Bull Salzburg"],["KkzBqiV_neY","Dejan Zukić | Wolfsberger AC"],["dyK6nUtOfIA","Romeo Amane | SK Rapid Wien"]]},
+    { id:"PLUfOMwh62X98", name:"Superliga", code:"DEN", region:"eur", count:33, videos:[
+      ["kyeuYRWh3f8","Magnus Jensen | FC Midtjylland"],["wfs3J6_iAG4","Kasper Kiilerich | Viborg FF"],["-NzPN4925AM","Elies Mahmoud | Randers FC"],["4Ob4M-aWX_E","Dominik Kotarski | FC København"],
+      ["7GH9jSP_8C8","Junnosuke Suzuki | FC København"],["ydtO3k2Cc1k","Lee Han-beom | FC Midtjylland"],["Olo28guRsVc","Cho Gue-sung | FC Midtjylland"],["Gy9NS24WOV0","Victor Bak Jensen | FC Midtjylland"]]},
+    { id:"PLTEejnriCJVo", name:"Eliteserien", code:"NOR", region:"eur", count:18, videos:[
+      ["GtaUfzqGOm4","Promise Meliga | Vålerenga IF"],["dhwitg1L2rg","Samukele Kabini | Molde FK"],["osBjJF7-_no","Amin Chiakha | Rosenborg BK"],["ldlF8Kh9suU","Håkon Volden | Rosenborg BK"],
+      ["STPQk0V994s","Fredrik Sjøvold | Bodø/Glimt"],["7xSHpc6CeUU","Daniel Karlsbakk | Sarpsborg 08"],["pJ1N2wM5NGU","Abubacarr Sedi Kinteh | Tromsø IL"],["XAgtSJRPROc","Eggert Aron Guðmundsson | SK Brann"]]},
+    { id:"PLaLxsZmDt5qw", name:"Allsvenskan", code:"SWE", region:"eur", count:15, videos:[
+      ["povjKuISA_Q","Michael Parker | Örgryte IS"],["AcZSTO2sLyQ","Abdoulaye Doumbia | BK Häcken"],["db95vGVzZ2I","Keita Kosugi | Djurgårdens IF"],["IL0BWhkgGlI","Daníel Tristan Guðjohnsen | Malmö FF"],
+      ["Q_nJd5S96Lc","Robbie Ure | IK Sirius"],["h38npu0IVnU","Hampus Skoglund | Hammarby IF"],["gTmFmoW4ocg","Ioannis Pittas | AIK"],["Fmy_njJeezU","Busanello | Malmö FF"]]},
+    { id:"PLP1W2CniUD9A", name:"Ekstraklasa", code:"POL", region:"eur", count:3, videos:[
+      ["RdMbqf-zZmE","Marcel Regula | Zagłębie Lubin"],["3myfr3wmprQ","Camilo Mena | Lechia Gdańsk"],["oGpXFU_h1Ow","Afonso Sousa | Lech Poznań"]]},
+    { id:"PLPmf4q72kV_U", name:"Czech First League", code:"CZE", region:"eur", count:13, videos:[
+      ["CRhII5r-v64","Samuel Isife | Slavia Praha"],["rax2IUxsqOM","Adam Hrdina | Zbrojovka Brno"],["-xBVSr_04G0","Vlasiy Sinyavskiy | Baník Ostrava"],["IYfNaoLB65c","Mikuláš Konečný | Slavia Praha"],
+      ["-nzfLYSqs-c","John Mercado | Sparta Praha"],["1wqhbWuGdD4","Štěpán Chaloupek | Slavia Praha"],["HrmUVz5881k","Hugo Sochurek | Sparta Praha"],["q44bFxBb9hw","Ángelo Preciado | Sparta Praha"]]},
+    { id:"PLW-VuuRLsE1Y", name:"Niké Liga", code:"SVK", region:"eur", count:3, videos:[
+      ["Us2xILGJyas","Mario Sauer | MŠK Žilina"],["TUleqcsfvB0","Levente Bősze | DAC 1904"],["q6kXZ0nllKM","Máté Tuboly | DAC 1904"]]},
+    { id:"PLMvazKNqnu6Y", name:"NB I", code:"HUN", region:"eur", count:6, videos:[
+      ["FoWOrdiMU38","Lenny Joseph | Ferencváros"],["LJt6z9ghZbM","Alex Tóth | Ferencváros"],["SzvJMvS54IM","Benedek Varju | MTK Budapest"],["uDUjPnutJmk","Matheus Saldanha | Ferencváros"],
+      ["Vjz23eHjbMI","Rajmund Tóth | ETO FC Győr"],["vWNhKbR8h9I","Ahmed Nadhir Benbouali | ETO FC Győr"]]},
+    { id:"PLYy8spL1vVec", name:"PrvaLiga", code:"SVN", region:"eur", count:6, videos:[
+      ["WoKW4hgmYMY","Alessandro Ahmetaj | ND Gorica"],["fa1KH7xV_Qs","Franko Kovačević | NK Celje"],["i_NBvJ1ljXk","Nikita Iosifov | NK Celje"],["1E9lV_BXi7s","Roger Murillo | ND Primorje"],
+      ["ZMZBqJu-Tjk","Raul Florucz | Olimpija Ljubljana"],["2WKFutFLxyI","Leo Rimac | FC Koper"]]},
+    { id:"PLOYwE-0E2eaw", name:"HNL", code:"CRO", region:"eur", count:25, videos:[
+      ["hrbP-Jr53VI","Emil Frederiksen | NK Istra 1961"],["rASGj5OlGQ0","Sergi Domínguez | Dinamo Zagreb"],["dXmJrfPPMnY","Rokas Pukštas | Hajduk Split"],["5vGyjSU-knM","Mateo Lisica | Dinamo Zagreb"],
+      ["PS7-DbK_XRQ","Toni Silić | Hajduk Split"],["TXW8d3gvYkU","Dion Drena Beljo | Dinamo Zagreb"],["tD_j7uwXhjw","Niko Sigur | Hajduk Split"],["kYkMcWl02xE","Moris Valinčić | Dinamo Zagreb"]]},
+    { id:"PLXcKU37tkVBk", name:"SuperLiga (Sérvia)", code:"SRB", region:"eur", count:15, videos:[
+      ["1398jCp3_BI","Jay Enem | Crvena Zvezda"],["YRmRcVhsumo","Aleksa Mitić | IMT Beograd"],["26NgAcaIguE","Bob Murphy Omoregbe | Novi Pazar"],["AE424XvGEoQ","Demba Seck | Partizan"],
+      ["d4oCWMMhNvI","Nikola Simić | Partizan"],["rqPjKITf0bQ","Vasilije Novičić | IMT Beograd"],["bnb6E1vrJM8","Vasilije Kostov | Crvena Zvezda"],["MRwLiWholgM","Ognjen Ugrešić | Partizan"]]},
+    { id:"PLaTYAz7c_iv8", name:"SuperLiga (Romênia)", code:"ROU", region:"eur", count:5, videos:[
+      ["zmCFjHfD-qs","Danny Armstrong | Dinamo București"],["oeIgZt4BAyQ","Assad Al-Hamlawi | Universitatea Craiova"],["_ObczPIZdzU","Andrei Coubis | Universitatea Cluj"],["A0sQMwXQdOA","Lorenzo Biliboc | CFR Cluj"],
+      ["XcAF-gLniHQ","Jovo Lukić | Universitatea Cluj"]]},
+    { id:"PLXrEbApPE28c", name:"Super League (Grécia)", code:"GRE", region:"eur", count:21, videos:[
+      ["-ivRck_NNbI","Christos Zafeiris | PAOK"],["qQizQp5UrbU","Renato Sanches | Panathinaikos"],["48sKz4c63Ug","Orbelín Pineda | AEK Athens"],["pyKfPuHIxX8","Yevhenii Kucherenko | Panetolikos"],
+      ["fNI5Lxi_mIg","Triantafyllos Tsapras | Levadiakos"],["QlMifVd280E","Eddie Salcedo | OFI Crete"],["ofne5dKXfNM","Christos Mouzakitis | Olympiacos"],["CuAts3824WM","Filipe Relvas | AEK Athens"]]},
+    { id:"PLQ0iBhYOxH6w", name:"Cypriot First Division", code:"CYP", region:"eur", count:3, videos:[
+      ["tRmPSyX59RE","Dennis Bakke Gaustad | Aris Limassol"],["hZSSjX7rzkA","Stefano Sensi | Anorthosis Famagusta"],["qMEmEjWz1Uo","Franco Tongya | AEK Larnaca"]]},
+    { id:"PLVPQ8I9FglW0", name:"Süper Lig", code:"TUR", region:"eur", count:4, videos:[
+      ["5mNsbVDl2Fg","Gedson Fernandes | Beşiktaş"],["8lHPQK5oW-E","Ciro Immobile | Beşiktaş"],["l1PbHn_4AxQ","Wilfried Zaha | Galatasaray"],["bM7bf-qQ0RU","Ada İbik | Manisa FK"]]},
+    { id:"PLGaVtEHV_F-w", name:"Premier Liga (Ucrânia)", code:"UKR", region:"eur", count:13, videos:[
+      ["BllyEF3S5vk","Illya Krupskyi | FC Kharkiv"],["mm2keeJu8bk","Eguinaldo | Shakhtar Donetsk"],["ScO9pP8Aoss","Ermir Rashica | Metalist 1925"],["Vgv0zS9WnTk","Newerton | Shakhtar Donetsk"],
+      ["ITk4agDKRLM","Pedro Henrique | Shakhtar Donetsk"],["iWgMPEQvR8U","Prosper Obah | LNZ Cherkasy"],["ELx-_z25PMY","Kauã Elias | Shakhtar Donetsk"],["5eFKXhE9eas","Marlon Gomes | Shakhtar Donetsk"]]},
+    { id:"PLfi_yPOD3jsQ", name:"Russian Premier League", code:"RUS", region:"eur", count:58, videos:[
+      ["mTKxwAMERzg","Jordhy Thompson | Orenburg"],["Bx13FIXAlSY","Rubens | Dynamo Moscow"],["3qjzz9Lu4ww","Jhon Córdoba | FC Krasnodar"],["OutuKF0FbTE","Fernando Costanza | Krylya Sovetov"],
+      ["FXv_hs7oMmw","Maksim Glushenkov | Zenit"],["owt544uRXEc","Lechi Sadulaev | Akhmat Grozny"],["0hwr4teFHmI","Matvey Lukin | CSKA Moscow"],["Uij17Ibgkx4","Jhon Córdoba | FC Krasnodar"]]},
+
+    /* ---------- Américas ---------- */
+    { id:"PLT--lKp9CIgQ", name:"Liga Profesional", code:"ARG", region:"ame", count:101, videos:[
+      ["9mXB_qJ4-kk","Miguel Merentiel | Boca Juniors"],["QZ7CCdVvvJI","Ángel Di María | Rosario Central"],["COesKxYOnLM","Thiago Cardozo | Belgrano"],["NENZufdGDRw","Josué Reinatti | Newell's Old Boys"],
+      ["K_3CsOp1Z_Y","Nicolás Bolcato | Independiente Rivadavia"],["-AFPDeqzr1c","Tiziano Perrotta | Banfield"],["y1Gk3uroy1k","Lucas Zelarayán | Belgrano"],["4pX1MrYKkxo","Orlando Gill | San Lorenzo"]]},
+    { id:"PLfybbV4MEsuk", name:"Primera Nacional", code:"ARG", region:"ame", count:4, videos:[
+      ["q6TBoP7aZaw","Felipe Obradovich | Ferro Carril Oeste"],["qsSuI9bIJS8","Thiago Ocampo | Nueva Chicago"],["pdBfOe7pVtY","Agustín Modica | Gimnasia y Esgrima Mendoza"],["PQljY3-6-NQ","Agustín Lavezzi | Tristán Suárez"]]},
+    { id:"PLN51chiXd0GQ", name:"Primera División (Uruguai)", code:"URU", region:"ame", count:35, videos:[
+      ["YQJHHw2IaKY","Nahuel López | Progreso"],["CSmjF4IETK8","Yuri Oyarzo | Racing de Montevideo"],["LspdkSvdZ00","Rodrigo Dudok | Racing de Montevideo"],["niSnKB3NMVw","Agustín Rodríguez | Juventud de Las Piedras"],
+      ["2rmDi1afNMM","Bruno Antúnez | Boston River"],["hA67c2OYel0","Julián Millán | Nacional"],["t_3ZKlzEQMw","Pablo Suarez | Montevideo Wanderers"],["X8ZmzaWt9po","José Neris | Montevideo City Torque"]]},
+    { id:"PLIro-0-5X4jk", name:"Primera División (Chile)", code:"CHI", region:"ame", count:7, videos:[
+      ["jH_rK8PnhYU","Javier Altamirano | Universidad de Chile"],["ic4ZG5euRdg","Francisco Marchant | Colo Colo"],["4mRtNryV-H8","Iván Román | Palestino"],["4HUa-y1cZIk","Ian Garguez | Palestino"],
+      ["I9Wu2bBXtOE","Ignacio Sáez | Universidad de Chile"],["GdHqelHIS3A","Alan Saldivia | Colo Colo"],["pRlR9MyTo-s","Damián Pizarro | Colo Colo"]]},
+    { id:"PLalJVXx2MO28", name:"Primera División (Paraguai)", code:"PAR", region:"ame", count:6, videos:[
+      ["RliK1cw2LWA","Alcides Benítez | Guaraní"],["lhlQ38KVPOk","Alan Tobías Morinigo | Olimpia"],["CevY5U1BeR8","Gustavo Caballero | Nacional Asunción"],["xL9gfZW4S1Y","João Marcelo | Guaraní"],
+      ["wJks6Pl5hcE","Rubén Lezcano | Libertad"],["FmJta17cv58","Kevin Parzajuk | Olimpia"]]},
+    { id:"PLJQblenjTh8s", name:"LigaPro", code:"ECU", region:"ame", count:8, videos:[
+      ["L8c5unMUXu4","Patrik Mercado | Independiente del Valle"],["RckUdlWzqJM","Gonzalo Valle | LDU"],["iDfQxsJnEKM","Azarias Londoño | U. Católica del Ecuador"],["gncVHZWgLjA","Gabriel Villamíl | LDU"],
+      ["qP7YVwcjuXY","Bryan Ramirez | LDU"],["bAR3jjWbK0c","Juan Macías | Macará"],["-CDpPClCDx0","Mijail Vaca | El Nacional"],["v7l6Vp78MUw","Luis Fragozo | Emelec"]]},
+    { id:"PLXSBLhOJtDsQ", name:"Liga BetPlay", code:"COL", region:"ame", count:7, videos:[
+      ["DoePwQvSiYY","Kevin Parra | Internacional de Bogotá"],["vjozYOjzZXk","Juan Manuel Rengifo | Atlético Nacional"],["JGR23yGczCs","Jorge Rivaldo | Águilas Doradas"],["NwN2hOmmDLw","Dereck Moncada | Internacional de Bogotá"],
+      ["I5MgWm7k1HQ","Johan Martínez | Deportivo Cali"],["Tg5bUiX--aE","Andrés Román | Atlético Nacional"],["dmCBJgJwC04","Yeison Guzmán | Tolima"]]},
+    { id:"PLSAndA9puKDQ", name:"Liga 1", code:"PER", region:"ame", count:3, videos:[
+      ["VBrxqtSImfU","Paolo Guerrero | Alianza Lima"],["bGNkTTyieZs","Maxloren Castro | Sporting Cristal"],["qXo10aoUXrw","Ángel Zamudio | Sport Huancayo"]]},
+    { id:"PLMOly0ZPvACg", name:"Liga MX", code:"MEX", region:"ame", count:4, videos:[
+      ["-jYjXYmQMjs","Nelson Deossa | CF Monterrey"],["DutjXnFlqz8","Bruno Amione | Santos Laguna"],["_JlrNjTlvZM","Sebastián Cáceres | América"],["4CYrrYg78Ko","Pedro Vite | Pumas UNAM"]]},
+
+    /* ---------- Ásia e África ---------- */
+    { id:"PLMnSqEfhDfz0", name:"Saudi Pro League", code:"KSA", region:"afa", count:27, videos:[
+      ["0g3o7siKMjo","Fashion Sakala | Al-Fayha"],["acogcDDAmQs","Houssem Aouar | Al-Ittihad"],["gVd8d9ZFRQ4","Koen Casteels | Al-Qadsiah"],["ATunnmVShCM","Marek Rodák | Al-Ettifaq"],
+      ["LZpxRMaBZPk","Wenderson Galeno | Al-Ahli"],["YGHZdsUUw2I","Christopher Bonsu Baah | Al-Qadsiah"],["ixDpzamWqHo","Mohau Nkota | Al-Ettifaq"],["YOtFF51PIqM","Ivan Toney | Al-Ahli"]]},
+    { id:"PLPh3k-8WtX8M", name:"Qatar Stars League", code:"QAT", region:"afa", count:11, videos:[
+      ["6K4wuruoo68","Akram Afif | Al-Sadd"],["mvlbzeqKj-k","Julian Draxler | Al-Ahli Doha"],["olGtNBE5GUQ","Luis Alberto | Al-Duhail"],["ezQJ7gt-ANc","Claudinho | Al-Sadd"],
+      ["eH3E5vFkqfA","Gregore | Al-Rayyan"],["X-12rOw_E2w","Giovani | Al-Sadd"],["Sp65o_j4h6c","Róger Guedes | Al-Rayyan"],["MyonrI2Ru_M","Fabricio Díaz | Al-Gharafa"]]},
+    { id:"PLE2mulyQWRfw", name:"Premier Soccer League", code:"RSA", region:"afa", count:5, videos:[
+      ["JOGnwyn0ujY","Oswin Appollis | Orlando Pirates"],["ZWhz8PYbKys","Teboho Mokoena | Mamelodi Sundowns"],["RD-QveN1Tas","Ronwen Williams | Mamelodi Sundowns"],["ZKw9nNcknZo","Relebohile Mofokeng | Orlando Pirates"],
+      ["6_eOXzhytho","Thapelo Maseko | Mamelodi Sundowns"]]}
+  ]
+};
+
+/* =========================================================================
+   🌍  TEXTOS EM 4 IDIOMAS — para mudar uma frase, edite a mesma chave nos 4 blocos
+   ========================================================================= */
+const I18N = {
+  pt: {
+    "meta.title":"OzzyFutComps | Highlights de jogadores de futebol",
+    "meta.desc":"OzzyFutComps: compilados e highlights de jogadores de futebol de mais de 40 ligas. Vídeos por liga, serviço de highlights personalizados por €50 e contato.",
+    "skip":"Pular para o conteúdo","lang":"Idioma",
+    "nav.home":"Início","nav.videos":"Vídeos","nav.service":"Serviço","nav.partners":"Parceiros","nav.x":"No X","nav.support":"Apoie","nav.contact":"Contato",
+    "hero.eyebrow":"Highlights de jogadores no YouTube","hero.slogan":"Os talentos do futebol mundial, lance a lance.","hero.cta":"Contratar vídeo","hero.subscribe":"Inscrever-se no canal","hero.latest":"Último vídeo",
+    "stat.subs":"inscritos","stat.videos":"vídeos","stat.leagues":"ligas",
+    "videos.title":"Vídeos por liga","videos.lead":"Escolha uma liga para ver os compilados mais recentes. Cada liga é uma playlist do canal.",
+    "videos.count":"{n} vídeos na playlist","videos.full":"Ver playlist completa","videos.note":"Mostrando os vídeos mais recentes da playlist.","videos.play":"Assistir",
+    "region.all":"Todas","region.bra":"Brasil","region.ita":"Itália","region.eur":"Europa","region.ame":"Américas","region.afa":"Ásia e África",
+    "service.title":"Highlights de jogador por €50","service.lead":"Um vídeo profissional com os melhores lances de um atleta, pronto para clubes, empresários e olheiros.","service.per":"por jogador",
+    "inc1":"Duração de 3 a 6 minutos","inc2":"Qualidade Full HD 1080p","inc3":"Entrega em até 7 dias","inc4":"2 rodadas de revisão","inc5":"Marcador destacando o jogador em cada lance","inc6":"Gols, assistências, dribles, passes e ações defensivas","inc7":"Abertura com nome, clube, posição e dados do atleta","inc8":"Arquivo final por link de download",
+    "service.cta":"Contratar agora","service.how":"Como funciona",
+    "step1t":"Pedido","step1d":"Envie o nome do jogador e, se tiver, os jogos que quer no vídeo.","step2t":"Pagamento","step2d":"Combinamos a forma de pagamento por e-mail ou WhatsApp.","step3t":"Edição","step3d":"Seleciono os lances, monto o vídeo e envio uma prévia.","step4t":"Entrega","step4d":"Ajustes das revisões e arquivo final em Full HD.",
+    "partners.title":"Canais parceiros","partners.lead":"Canais amigos com compilados e talentos do futebol.","partners.visit":"Visitar canal","partners.stats":"inscritos · vídeos",
+    "p.cf":"Compilados e melhores momentos do Flamengo.","p.lt":"Canal dedicado aos talentos do futebol francês.",
+    "x.title":"Siga no X","x.lead":"Novidades do canal e comentários sobre futebol.","x.follow":"Seguir","x.load":"Ver posts","x.hint":"Se os posts não aparecerem, abra o perfil direto no X.",
+    "support.title":"Apoie o nosso trabalho","support.lead":"Cada compilado leva horas de pesquisa e edição. Se você curte o canal, qualquer valor ajuda a manter os vídeos saindo.",
+    "support.pix.t":"Pix (Brasil)","support.pix.d":"Abra o app do seu banco, escaneie o QR Code ou use o Pix copia e cola. Você escolhe o valor.","support.copy":"Copiar código Pix","support.copied":"Código copiado!","support.copyfail":"Selecione e copie o código abaixo:","support.to":"Recebedor: {name}",
+    "support.intl.t":"Do exterior","support.intl.d":"Doe com cartão ou PayPal, em qualquer moeda.","support.intl.btn":"Doar com {label}","support.soon":"Em breve",
+    "contact.title":"Entre em contato conosco","contact.lead":"Peça seu vídeo, proponha uma parceria ou mande sua sugestão de jogador.","contact.direct":"Contato direto",
+    "f.name":"Nome","f.email":"E-mail","f.player":"Jogador desejado","f.player.ph":"ex.: Pedro, Flamengo","f.message":"Mensagem","f.send":"Enviar mensagem","f.sending":"Enviando…",
+    "f.ok":"Mensagem enviada! Respondemos em breve no seu e-mail.","f.err":"Não foi possível enviar agora. Tente de novo ou escreva direto para um dos e-mails ao lado.","f.invalid":"Preencha nome, um e-mail válido e a mensagem.",
+    "f.prefill":"Quero contratar o vídeo de highlights (€50).","f.subject":"[Site] Nova mensagem de {name}",
+    "footer.rights":"Todos os direitos reservados.","modal.close":"Fechar"
+  },
+  en: {
+    "meta.title":"OzzyFutComps | Football player highlights",
+    "meta.desc":"OzzyFutComps: football player highlights and compilations from 40+ leagues. Videos by league, custom player highlights for €50 and contact.",
+    "skip":"Skip to content","lang":"Language",
+    "nav.home":"Home","nav.videos":"Videos","nav.service":"Service","nav.partners":"Partners","nav.x":"On X","nav.support":"Support","nav.contact":"Contact",
+    "hero.eyebrow":"Player highlights on YouTube","hero.slogan":"World football's talents, play by play.","hero.cta":"Order a video","hero.subscribe":"Subscribe","hero.latest":"Latest video",
+    "stat.subs":"subscribers","stat.videos":"videos","stat.leagues":"leagues",
+    "videos.title":"Videos by league","videos.lead":"Pick a league to see the latest compilations. Each league is a playlist on the channel.",
+    "videos.count":"{n} videos in this playlist","videos.full":"See full playlist","videos.note":"Showing the latest videos in this playlist.","videos.play":"Watch",
+    "region.all":"All","region.bra":"Brazil","region.ita":"Italy","region.eur":"Europe","region.ame":"Americas","region.afa":"Asia & Africa",
+    "service.title":"Player highlights for €50","service.lead":"A professional video of a player's best actions, ready for clubs, agents and scouts.","service.per":"per player",
+    "inc1":"3 to 6 minutes long","inc2":"Full HD 1080p quality","inc3":"Delivered within 7 days","inc4":"2 rounds of revisions","inc5":"Spotlight marker on the player in every clip","inc6":"Goals, assists, dribbles, passes and defensive actions","inc7":"Intro card with name, club, position and player data","inc8":"Final file via download link",
+    "service.cta":"Order now","service.how":"How it works",
+    "step1t":"Request","step1d":"Send the player's name and, if you have them, the matches you want included.","step2t":"Payment","step2d":"We agree on the payment method by email or WhatsApp.","step3t":"Editing","step3d":"I pick the clips, edit the video and send you a preview.","step4t":"Delivery","step4d":"Revisions applied and the final file in Full HD.",
+    "partners.title":"Partner channels","partners.lead":"Friendly channels with compilations and football talent.","partners.visit":"Visit channel","partners.stats":"subscribers · videos",
+    "p.cf":"Flamengo compilations and best moments.","p.lt":"A channel dedicated to French football talent.",
+    "x.title":"Follow us on X","x.lead":"Channel news and football talk.","x.follow":"Follow","x.load":"Show posts","x.hint":"If posts don't appear, open the profile on X.",
+    "support.title":"Support our work","support.lead":"Every compilation takes hours of research and editing. If you enjoy the channel, any amount helps keep the videos coming.",
+    "support.pix.t":"Pix (Brazil)","support.pix.d":"Brazil's instant payment: scan the QR code in your banking app or use the copy-and-paste code. You choose the amount.","support.copy":"Copy Pix code","support.copied":"Code copied!","support.copyfail":"Select and copy the code below:","support.to":"Recipient: {name}",
+    "support.intl.t":"From abroad","support.intl.d":"Donate by card or PayPal, in any currency.","support.intl.btn":"Donate with {label}","support.soon":"Coming soon",
+    "contact.title":"Get in touch","contact.lead":"Order your video, propose a partnership or suggest a player.","contact.direct":"Direct contact",
+    "f.name":"Name","f.email":"Email","f.player":"Player you want","f.player.ph":"e.g. Pedro, Flamengo","f.message":"Message","f.send":"Send message","f.sending":"Sending…",
+    "f.ok":"Message sent! We'll reply to your email soon.","f.err":"Couldn't send right now. Try again or write directly to one of the emails listed.","f.invalid":"Please fill in your name, a valid email and a message.",
+    "f.prefill":"I'd like to order the highlights video (€50).","f.subject":"[Site] New message from {name}",
+    "footer.rights":"All rights reserved.","modal.close":"Close"
+  },
+  it: {
+    "meta.title":"OzzyFutComps | Highlights di calciatori",
+    "meta.desc":"OzzyFutComps: highlights e compilation di calciatori da oltre 40 campionati. Video per campionato, highlights personalizzati a 50 € e contatti.",
+    "skip":"Vai al contenuto","lang":"Lingua",
+    "nav.home":"Home","nav.videos":"Video","nav.service":"Servizio","nav.partners":"Partner","nav.x":"Su X","nav.support":"Sostienici","nav.contact":"Contatti",
+    "hero.eyebrow":"Highlights di calciatori su YouTube","hero.slogan":"I talenti del calcio mondiale, azione per azione.","hero.cta":"Ordina un video","hero.subscribe":"Iscriviti al canale","hero.latest":"Ultimo video",
+    "stat.subs":"iscritti","stat.videos":"video","stat.leagues":"campionati",
+    "videos.title":"Video per campionato","videos.lead":"Scegli un campionato per vedere le compilation più recenti. Ogni campionato è una playlist del canale.",
+    "videos.count":"{n} video nella playlist","videos.full":"Vedi playlist completa","videos.note":"Mostrando i video più recenti della playlist.","videos.play":"Guarda",
+    "region.all":"Tutti","region.bra":"Brasile","region.ita":"Italia","region.eur":"Europa","region.ame":"Americhe","region.afa":"Asia e Africa",
+    "service.title":"Highlights di un giocatore a 50 €","service.lead":"Un video professionale con le migliori azioni di un atleta, pronto per club, procuratori e osservatori.","service.per":"a giocatore",
+    "inc1":"Durata da 3 a 6 minuti","inc2":"Qualità Full HD 1080p","inc3":"Consegna entro 7 giorni","inc4":"2 revisioni incluse","inc5":"Indicatore che evidenzia il giocatore in ogni azione","inc6":"Gol, assist, dribbling, passaggi e azioni difensive","inc7":"Intro con nome, club, ruolo e dati dell'atleta","inc8":"File finale tramite link di download",
+    "service.cta":"Ordina ora","service.how":"Come funziona",
+    "step1t":"Richiesta","step1d":"Invia il nome del giocatore e, se le hai, le partite da includere.","step2t":"Pagamento","step2d":"Concordiamo il metodo di pagamento via e-mail o WhatsApp.","step3t":"Montaggio","step3d":"Seleziono le azioni, monto il video e ti invio un'anteprima.","step4t":"Consegna","step4d":"Revisioni applicate e file finale in Full HD.",
+    "partners.title":"Canali partner","partners.lead":"Canali amici con compilation e talenti del calcio.","partners.visit":"Visita il canale","partners.stats":"iscritti · video",
+    "p.cf":"Compilation e momenti migliori del Flamengo.","p.lt":"Canale dedicato ai talenti del calcio francese.",
+    "x.title":"Seguici su X","x.lead":"Novità del canale e commenti sul calcio.","x.follow":"Segui","x.load":"Mostra i post","x.hint":"Se i post non compaiono, apri il profilo su X.",
+    "support.title":"Sostieni il nostro lavoro","support.lead":"Ogni compilation richiede ore di ricerca e montaggio. Se ti piace il canale, qualsiasi importo aiuta a continuare.",
+    "support.pix.t":"Pix (Brasile)","support.pix.d":"Pagamento istantaneo brasiliano: scansiona il QR code dall'app della banca o usa il codice copia e incolla. Scegli tu l'importo.","support.copy":"Copia codice Pix","support.copied":"Codice copiato!","support.copyfail":"Seleziona e copia il codice qui sotto:","support.to":"Beneficiario: {name}",
+    "support.intl.t":"Dall'estero","support.intl.d":"Dona con carta o PayPal, in qualsiasi valuta.","support.intl.btn":"Dona con {label}","support.soon":"In arrivo",
+    "contact.title":"Contattaci","contact.lead":"Ordina il tuo video, proponi una collaborazione o suggerisci un giocatore.","contact.direct":"Contatto diretto",
+    "f.name":"Nome","f.email":"E-mail","f.player":"Giocatore desiderato","f.player.ph":"es. Pedro, Flamengo","f.message":"Messaggio","f.send":"Invia messaggio","f.sending":"Invio in corso…",
+    "f.ok":"Messaggio inviato! Ti risponderemo presto via e-mail.","f.err":"Invio non riuscito. Riprova o scrivi direttamente a uno degli indirizzi indicati.","f.invalid":"Compila nome, un'e-mail valida e il messaggio.",
+    "f.prefill":"Vorrei ordinare il video highlights (50 €).","f.subject":"[Sito] Nuovo messaggio da {name}",
+    "footer.rights":"Tutti i diritti riservati.","modal.close":"Chiudi"
+  },
+  es: {
+    "meta.title":"OzzyFutComps | Highlights de jugadores de fútbol",
+    "meta.desc":"OzzyFutComps: highlights y compilados de jugadores de fútbol de más de 40 ligas. Vídeos por liga, highlights personalizados por 50 € y contacto.",
+    "skip":"Ir al contenido","lang":"Idioma",
+    "nav.home":"Inicio","nav.videos":"Vídeos","nav.service":"Servicio","nav.partners":"Aliados","nav.x":"En X","nav.support":"Apóyanos","nav.contact":"Contacto",
+    "hero.eyebrow":"Highlights de jugadores en YouTube","hero.slogan":"Los talentos del fútbol mundial, jugada a jugada.","hero.cta":"Contratar video","hero.subscribe":"Suscribirse","hero.latest":"Último video",
+    "stat.subs":"suscriptores","stat.videos":"vídeos","stat.leagues":"ligas",
+    "videos.title":"Vídeos por liga","videos.lead":"Elige una liga para ver los compilados más recientes. Cada liga es una playlist del canal.",
+    "videos.count":"{n} vídeos en la playlist","videos.full":"Ver playlist completa","videos.note":"Mostrando los vídeos más recientes de la playlist.","videos.play":"Ver",
+    "region.all":"Todas","region.bra":"Brasil","region.ita":"Italia","region.eur":"Europa","region.ame":"Américas","region.afa":"Asia y África",
+    "service.title":"Highlights de jugador por 50 €","service.lead":"Un video profesional con las mejores jugadas de un atleta, listo para clubes, representantes y ojeadores.","service.per":"por jugador",
+    "inc1":"Duración de 3 a 6 minutos","inc2":"Calidad Full HD 1080p","inc3":"Entrega en hasta 7 días","inc4":"2 rondas de revisión","inc5":"Marcador que destaca al jugador en cada jugada","inc6":"Goles, asistencias, regates, pases y acciones defensivas","inc7":"Apertura con nombre, club, posición y datos del jugador","inc8":"Archivo final por enlace de descarga",
+    "service.cta":"Contratar ahora","service.how":"Cómo funciona",
+    "step1t":"Pedido","step1d":"Envía el nombre del jugador y, si los tienes, los partidos que quieres incluir.","step2t":"Pago","step2d":"Acordamos el método de pago por correo o WhatsApp.","step3t":"Edición","step3d":"Selecciono las jugadas, edito el video y te envío una vista previa.","step4t":"Entrega","step4d":"Ajustes de las revisiones y archivo final en Full HD.",
+    "partners.title":"Canales aliados","partners.lead":"Canales amigos con compilados y talentos del fútbol.","partners.visit":"Visitar canal","partners.stats":"suscriptores · vídeos",
+    "p.cf":"Compilados y mejores momentos del Flamengo.","p.lt":"Canal dedicado a los talentos del fútbol francés.",
+    "x.title":"Síguenos en X","x.lead":"Novedades del canal y comentarios sobre fútbol.","x.follow":"Seguir","x.load":"Ver posts","x.hint":"Si los posts no aparecen, abre el perfil en X.",
+    "support.title":"Apoya nuestro trabajo","support.lead":"Cada compilado lleva horas de búsqueda y edición. Si te gusta el canal, cualquier monto ayuda a seguir publicando.",
+    "support.pix.t":"Pix (Brasil)","support.pix.d":"Pago instantáneo brasileño: escanea el código QR con la app de tu banco o usa el código para copiar y pegar. Tú eliges el monto.","support.copy":"Copiar código Pix","support.copied":"¡Código copiado!","support.copyfail":"Selecciona y copia el código de abajo:","support.to":"Destinatario: {name}",
+    "support.intl.t":"Desde el exterior","support.intl.d":"Dona con tarjeta o PayPal, en cualquier moneda.","support.intl.btn":"Donar con {label}","support.soon":"Próximamente",
+    "contact.title":"Contáctanos","contact.lead":"Pide tu video, propón una colaboración o sugiere un jugador.","contact.direct":"Contacto directo",
+    "f.name":"Nombre","f.email":"Correo electrónico","f.player":"Jugador deseado","f.player.ph":"ej.: Pedro, Flamengo","f.message":"Mensaje","f.send":"Enviar mensaje","f.sending":"Enviando…",
+    "f.ok":"¡Mensaje enviado! Te responderemos pronto por correo.","f.err":"No se pudo enviar ahora. Inténtalo de nuevo o escribe directamente a uno de los correos indicados.","f.invalid":"Completa tu nombre, un correo válido y el mensaje.",
+    "f.prefill":"Quiero contratar el video de highlights (50 €).","f.subject":"[Sitio] Nuevo mensaje de {name}",
+    "footer.rights":"Todos los derechos reservados.","modal.close":"Cerrar"
+  }
+};
+
+/* =========================================================================
+   A partir daqui é o funcionamento do site — normalmente não precisa mexer.
+   ========================================================================= */
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const LANGS = { pt:"pt-BR", en:"en", it:"it", es:"es" };
+const REGIONS = ["all","bra","ita","eur","ame","afa"];
+let lang = "pt", region = "all", currentLeague = CONFIG.defaultLeague;
+const apiCache = {};
+
+/* Tradução: t("chave", {n: 5}) → texto no idioma atual */
+function t(key, vars = {}) {
+  let s = (I18N[lang] && I18N[lang][key]) ?? I18N.pt[key] ?? key;
+  for (const k in vars) s = s.replace("{" + k + "}", vars[k]);
+  return s;
+}
+
+/* ---------- Idioma ---------- */
+function pickInitialLang() {
+  const q = new URLSearchParams(location.search).get("lang");      // ex.: site.com/?lang=en
+  if (q && I18N[q]) return q;
+  try { const saved = localStorage.getItem("ozzy-lang"); if (saved && I18N[saved]) return saved; } catch (e) {}
+  const nav = (navigator.language || "pt").slice(0, 2).toLowerCase();
+  return I18N[nav] ? nav : "pt";
+}
+function setLang(l) {
+  lang = l;
+  try { localStorage.setItem("ozzy-lang", l); } catch (e) {}
+  document.documentElement.lang = LANGS[l];
+  document.title = t("meta.title");
+  $('meta[name="description"]').setAttribute("content", t("meta.desc"));
+  document.querySelectorAll("[data-i18n]").forEach(el => el.textContent = t(el.dataset.i18n));
+  document.querySelectorAll("[data-i18n-ph]").forEach(el => el.placeholder = t(el.dataset.i18nPh));
+  document.querySelectorAll("[data-i18n-aria]").forEach(el => el.setAttribute("aria-label", t(el.dataset.i18nAria)));
+  document.querySelectorAll(".lang button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.lang === l)));
+  renderIncluded(); renderRegions(); renderLeagueHead(); renderGrid(currentVideos);
+  renderPartners(); renderX(); renderSupport(); renderDirect();
+}
+
+/* ---------- 1. Início ---------- */
+function renderHero() {
+  $("#st-subs").textContent = CONFIG.channel.subscribers;
+  $("#st-videos").textContent = CONFIG.channel.videos;
+  $("#st-leagues").textContent = CONFIG.leagues.length;
+  const uploads = "UU" + CONFIG.channel.id.slice(2);   // playlist com todos os uploads, do mais novo ao mais antigo
+  $("#latest-player").src = "https://www.youtube-nocookie.com/embed/videoseries?list=" + uploads + "&rel=0&modestbranding=1";
+}
+
+/* ---------- 2. Vídeos por liga ---------- */
+let currentVideos = [];
+function renderRegions() {
+  $("#regions").innerHTML = REGIONS.map(r =>
+    `<button type="button" data-region="${r}" aria-pressed="${r === region}">${esc(t("region." + r))}</button>`).join("");
+}
+function renderLeagueChips() {
+  const list = CONFIG.leagues.filter(l => region === "all" || l.region === region);
+  $("#leagues").innerHTML = list.map(l =>
+    `<button type="button" class="league" data-id="${esc(l.id)}" aria-pressed="${l.id === currentLeague}">
+       <span class="code">${esc(l.code)}</span><span class="name">${esc(l.name)}</span><span class="n">${l.count}</span>
+     </button>`).join("");
+}
+function renderLeagueHead() {
+  const l = CONFIG.leagues.find(x => x.id === currentLeague); if (!l) return;
+  $("#league-title").textContent = l.name;
+  $("#league-count").textContent = t("videos.count", { n: l.count });
+  $("#league-link").href = "https://www.youtube.com/playlist?list=" + l.id;
+}
+function renderGrid(videos) {
+  $("#video-grid").innerHTML = videos.map(([id, title]) => {
+    const [player, club = ""] = title.split(" | ");
+    return `<a class="vcard" href="https://www.youtube.com/watch?v=${esc(id)}" data-video="${esc(id)}" target="_blank" rel="noopener" aria-label="${esc(t("videos.play") + ": " + title)}">
+      <div class="thumb"><img src="https://i.ytimg.com/vi/${esc(id)}/mqdefault.jpg" alt="" loading="lazy" width="320" height="180">
+        <span class="play" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="#fff" d="M6 4l15 8-15 8z"/></svg></span></div>
+      <div class="vmeta"><strong>${esc(player)}</strong><span>${esc(club)}</span></div></a>`;
+  }).join("");
+}
+/* Busca os vídeos mais novos pela API (só se CONFIG.youtubeApiKey estiver preenchida) */
+async function fetchFromApi(playlistId) {
+  if (apiCache[playlistId]) return apiCache[playlistId];
+  const url = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=12&playlistId=" + playlistId + "&key=" + CONFIG.youtubeApiKey;
+  const data = await (await fetch(url)).json();
+  const vids = (data.items || [])
+    .filter(i => i.snippet?.resourceId?.videoId && !/^(Private|Deleted) video$/.test(i.snippet.title))
+    .map(i => [i.snippet.resourceId.videoId, i.snippet.title.split(/ - | \(vs/)[0].trim()]);
+  return (apiCache[playlistId] = vids);
+}
+async function selectLeague(id) {
+  const l = CONFIG.leagues.find(x => x.id === id); if (!l) return;
+  currentLeague = id;
+  document.querySelectorAll(".league").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.id === id)));
+  renderLeagueHead();
+  currentVideos = l.videos; renderGrid(currentVideos);
+  if (CONFIG.youtubeApiKey) {
+    try { const fresh = await fetchFromApi(id); if (fresh.length && currentLeague === id) { currentVideos = fresh; renderGrid(fresh); } }
+    catch (e) { console.warn("YouTube API:", e); }
+  }
+}
+
+/* Janela de vídeo (abre ao clicar num card; Ctrl/Cmd+clique abre no YouTube) */
+const dlg = $("#video-dialog");
+function openVideo(id) {
+  if (typeof dlg.showModal !== "function") return false;
+  $("#dlg-frame").innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${esc(id)}?autoplay=1&rel=0" title="YouTube" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
+  dlg.showModal(); return true;
+}
+dlg.addEventListener("close", () => $("#dlg-frame").innerHTML = "");
+$("#dlg-close").addEventListener("click", () => dlg.close());
+dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
+
+/* ---------- 3. Serviço ---------- */
+function renderIncluded() {
+  const check = '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm-1.4 14.2-4.2-4.2 1.4-1.4 2.8 2.8 5.8-5.8 1.4 1.4-7.2 7.2Z"/></svg>';
+  $("#incl").innerHTML = ["inc1","inc2","inc3","inc4","inc5","inc6","inc7","inc8"]
+    .map(k => `<li>${check}<span>${esc(t(k))}</span></li>`).join("");
+  $("#price").textContent = new Intl.NumberFormat(LANGS[lang], { style:"currency", currency:CONFIG.price.currency, maximumFractionDigits:0 }).format(CONFIG.price.value);
+}
+
+/* ---------- 4. Parceiros ---------- */
+function avatarHTML(src, name, cls = "avatar") {
+  const initials = name.split(/\s+/).map(w => w[0]).join("").slice(0, 2).toUpperCase();
+  // Se a imagem não carregar, mostra as iniciais
+  return `<img class="${cls}" src="${esc(src)}" alt="" loading="lazy" width="72" height="72"
+    onerror="this.outerHTML='<span class=&quot;${cls}&quot; aria-hidden=&quot;true&quot;>${esc(initials)}</span>'">`;
+}
+function renderPartners() {
+  $("#partners").innerHTML = CONFIG.partners.map(p => `
+    <article class="pcard">
+      ${avatarHTML(p.logo, p.name)}
+      <div>
+        <h3>${esc(p.name)}</h3>
+        ${p.stats ? `<p class="meta">${esc(p.stats)} ${esc(t("partners.stats"))}</p>` : ""}
+        <p>${esc(p.descKey ? t(p.descKey) : (p.desc || ""))}</p>
+        <a class="btn btn-ghost" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(t("partners.visit"))}</a>
+      </div>
+    </article>`).join("");
+}
+
+/* ---------- 5. X / Twitter ---------- */
+function renderX() {
+  $("#xprofiles").innerHTML = CONFIG.xProfiles.map(x => `
+    <article class="xcard">
+      <div class="xtop">
+        ${avatarHTML("https://unavatar.io/x/" + x.handle, x.name || x.handle)}
+        <div><h3>${esc(x.name || "@" + x.handle)}</h3><p>@${esc(x.handle)}</p></div>
+        <a class="btn btn-primary" href="https://x.com/${esc(x.handle)}" target="_blank" rel="noopener">${esc(t("x.follow"))}</a>
+      </div>
+      <div class="xfeed" id="feed-${esc(x.handle)}">
+        <button type="button" class="btn btn-ghost" data-feed="${esc(x.handle)}">${esc(t("x.load"))}</button>
+      </div>
+    </article>`).join("");
+}
+/* Carrega a timeline do X só quando o visitante pede (o script do X é pesado) */
+function loadFeed(handle) {
+  const box = document.getElementById("feed-" + handle);
+  box.innerHTML = `<a class="twitter-timeline" data-theme="dark" data-height="520" data-dnt="true" data-chrome="noheader nofooter transparent"
+    href="https://twitter.com/${esc(handle)}">@${esc(handle)}</a><p class="hint">${esc(t("x.hint"))}</p>`;
+  if (window.twttr && twttr.widgets) { twttr.widgets.load(box); return; }
+  const s = document.createElement("script"); s.src = "https://platform.twitter.com/widgets.js"; s.async = true; document.body.appendChild(s);
+}
+
+/* ---------- 6. Apoie ---------- */
+function renderSupport() {
+  $("#pix-to").textContent = t("support.to", { name: CONFIG.pix.receiver });
+  const d = CONFIG.internationalDonation;
+  $("#intl-donate").innerHTML = d.url
+    ? `<a class="btn btn-primary" href="${esc(d.url)}" target="_blank" rel="noopener">${esc(t("support.intl.btn", { label: d.label }))}</a>`
+    : `<span class="btn btn-ghost" aria-disabled="true">${esc(t("support.soon"))}</span>`;
+}
+$("#pix-copy").addEventListener("click", async () => {
+  const out = $("#pix-copied");
+  try { await navigator.clipboard.writeText(CONFIG.pix.payload); out.textContent = t("support.copied"); }
+  catch (e) { out.textContent = t("support.copyfail"); $("#pix-to").textContent = CONFIG.pix.payload; }
+  setTimeout(() => out.textContent = "", 3000);
+});
+
+/* ---------- 7. Contato ---------- */
+const ICONS = {
+  mail:'<svg viewBox="0 0 24 24"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg>',
+  wa:'<svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.2 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.8-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.2 1.4Z"/></svg>',
+  ig:'<svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4ZM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4ZM21.9 7.9c-.1-1.6-.4-3-1.6-4.2S17.7 2.2 16.1 2.1C14.5 2 9.5 2 7.9 2.1c-1.6.1-3 .4-4.2 1.6S2.2 6.3 2.1 7.9C2 9.5 2 14.5 2.1 16.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.6.1 6.6.1 8.2 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.6.1-6.6 0-8.2Zm-2.1 10a3.3 3.3 0 0 1-1.9 1.9c-1.3.5-4.4.4-5.9.4s-4.6.1-5.9-.4a3.3 3.3 0 0 1-1.9-1.9c-.5-1.3-.4-4.4-.4-5.9s-.1-4.6.4-5.9a3.3 3.3 0 0 1 1.9-1.9c1.3-.5 4.4-.4 5.9-.4s4.6-.1 5.9.4a3.3 3.3 0 0 1 1.9 1.9c.5 1.3.4 4.4.4 5.9s.1 4.6-.4 5.9Z"/></svg>'
+};
+function renderDirect() {
+  const c = CONFIG.contact, items = [];
+  c.emails.forEach(e => items.push({ href:"mailto:" + e, icon:ICONS.mail, label:"E-mail", text:e }));
+  if (c.whatsapp) items.push({ href:"https://wa.me/" + c.whatsapp.replace(/\D/g, ""), icon:ICONS.wa, label:"WhatsApp", text:"+" + c.whatsapp.replace(/\D/g, "") });
+  if (c.instagram) items.push({ href:"https://instagram.com/" + c.instagram, icon:ICONS.ig, label:"Instagram", text:"@" + c.instagram });
+  $("#direct-links").innerHTML = items.map(i =>
+    `<a class="dlink" href="${esc(i.href)}" target="_blank" rel="noopener"><span class="ic" aria-hidden="true">${i.icon}</span><span><small>${esc(i.label)}</small>${esc(i.text)}</span></a>`).join("");
+}
+/* Envio do formulário via FormSubmit.co → chega em CONFIG.form.to com cópia para CONFIG.form.cc */
+$("#contact-form").addEventListener("submit", async e => {
+  e.preventDefault();
+  const f = e.target, status = $("#f-status"), btn = $("#f-send");
+  const name = f.name.value.trim(), email = f.email.value.trim(), player = f.player.value.trim(), message = f.message.value.trim();
+  status.className = "status";
+  if (!name || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email) || !message) { status.textContent = t("f.invalid"); status.classList.add("err"); return; }
+  if (f._honey.value) return;                       // robô de spam
+  btn.disabled = true; btn.textContent = t("f.sending");
+  try {
+    const res = await fetch("https://formsubmit.co/ajax/" + CONFIG.form.to, {
+      method:"POST", headers:{ "Content-Type":"application/json", "Accept":"application/json" },
+      body: JSON.stringify({
+        "Nome": name, "email": email, "Jogador desejado": player || "-", "Mensagem": message, "Idioma do site": lang.toUpperCase(),
+        _cc: CONFIG.form.cc.join(","), _subject: t("f.subject", { name }), _template:"table", _captcha:"false", _replyto: email
+      })
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok || String(data.success) !== "true") throw new Error(data.message || res.status);
+    status.textContent = t("f.ok"); status.classList.add("ok"); f.reset();
+  } catch (err) {
+    console.warn("Formulário:", err);
+    status.textContent = t("f.err"); status.classList.add("err");
+  } finally { btn.disabled = false; btn.textContent = t("f.send"); }
+});
+/* Botão "Contratar" preenche a mensagem automaticamente */
+document.querySelectorAll('#order-btn, .hero .btn-primary').forEach(b => b.addEventListener("click", () => {
+  const m = $("#f-message"); if (!m.value) m.value = t("f.prefill");
+  if (b.id === "order-btn") setTimeout(() => $("#f-name").focus({ preventScroll:true }), 400);
+}));
+
+/* ---------- Cliques (delegação) ---------- */
+document.addEventListener("click", e => {
+  const langBtn = e.target.closest(".lang button"); if (langBtn) return setLang(langBtn.dataset.lang);
+  const reg = e.target.closest("[data-region]");
+  if (reg) { region = reg.dataset.region; renderRegions(); renderLeagueChips();
+    const first = CONFIG.leagues.find(l => region === "all" || l.region === region);
+    if (first && !CONFIG.leagues.some(l => l.id === currentLeague && (region === "all" || l.region === region))) selectLeague(first.id);
+    return; }
+  const lg = e.target.closest(".league"); if (lg) return selectLeague(lg.dataset.id);
+  const feed = e.target.closest("[data-feed]"); if (feed) return loadFeed(feed.dataset.feed);
+  const card = e.target.closest("[data-video]");
+  if (card && !e.ctrlKey && !e.metaKey && !e.shiftKey && openVideo(card.dataset.video)) e.preventDefault();
+});
+
+/* ---------- Menu: destaca a seção visível ---------- */
+const links = [...document.querySelectorAll(".nav a")];
+if ("IntersectionObserver" in window) {
+  const io = new IntersectionObserver(entries => entries.forEach(en => {
+    if (en.isIntersecting) links.forEach(a => a.classList.toggle("active", a.getAttribute("href") === "#" + en.target.id));
+  }), { rootMargin:"-45% 0px -50% 0px" });
+  document.querySelectorAll("main section").forEach(s => io.observe(s));
+}
+
+/* ---------- Início ---------- */
+$("#year").textContent = new Date().getFullYear();
+renderHero();
+renderLeagueChips();
+selectLeague(currentLeague);
+setLang(pickInitialLang());
+</script>
+</body>
+</html>
